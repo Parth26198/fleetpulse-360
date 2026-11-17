@@ -78,7 +78,7 @@ An automated Python secret scanner audited all 77 staged files prior to committi
 - **Credential Helper:** Windows Credential Manager (`credential.helper = manager`)
 - **Target Repository Name:** `fleetpulse-360`
 - **Target Visibility:** **PRIVATE**
-- **Target Remote Origin:** `https://github.com/pareshd2121/fleetpulse-360.git`
+- **Target Remote Origin:** `https://github.com/Parth26198/fleetpulse-360.git`
 
 ### Browser-Based Setup & Push Execution Guide
 
@@ -94,7 +94,7 @@ Since GitHub CLI (`gh`) is not installed on the system PATH, we will use Git wit
 #### Step 2: Set Remote Origin
 In the project directory, link the remote repository:
 ```powershell
-git remote add origin https://github.com/pareshd2121/fleetpulse-360.git
+git remote set-url origin https://github.com/Parth26198/fleetpulse-360.git
 ```
 
 #### Step 3: Approve & Push to GitHub
