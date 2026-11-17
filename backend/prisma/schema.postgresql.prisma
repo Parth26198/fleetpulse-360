@@ -1,0 +1,476 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Company {
+  id               String   @id @default(uuid())
+  name             String
+  slug             String   @unique
+  code             String   @unique
+  address          String?
+  phone            String?
+  email            String?
+  gstNumber        String?
+  panNumber        String?
+  subscriptionPlan String   @default("ENTERPRISE")
+  maxVehicles      Int      @default(100)
+  status           String   @default("ACTIVE")
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  users                 User[]
+  employees             Employee[]
+  drivers               Driver[]
+  vehicles              Vehicle[]
+  vehicleDocuments      VehicleDocument[]
+  trips                 Trip[]
+  dailyVehicleTrackings DailyVehicleTracking[]
+  attendances           Attendance[]
+  payrolls              Payroll[]
+  expenses              Expense[]
+  clients               Client[]
+  clientRateCards       ClientRateCard[]
+  invoices              Invoice[]
+  tasks                 Task[]
+  auditLogs             AuditLog[]
+  importJobs            ImportJob[]
+}
+
+model User {
+  id           String   @id @default(uuid())
+  companyId    String
+  name         String
+  email        String   @unique
+  passwordHash String
+  roleId       String
+  phone        String?
+  status       String   @default("ACTIVE")
+  avatarUrl    String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  company   Company    @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  role      Role       @relation(fields: [roleId], references: [id])
+  tasks     Task[]     @relation("AssigneeTasks")
+  auditLogs AuditLog[]
+}
+
+model Role {
+  id          String   @id @default(uuid())
+  name        String   @unique
+  description String?
+  isSystem    Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  users           User[]
+  rolePermissions RolePermission[]
+}
+
+model Permission {
+  id          String  @id @default(uuid())
+  module      String
+  action      String
+  description String?
+
+  rolePermissions RolePermission[]
+
+  @@unique([module, action])
+}
+
+model RolePermission {
+  id           String @id @default(uuid())
+  roleId       String
+  permissionId String
+
+  role       Role       @relation(fields: [roleId], references: [id], onDelete: Cascade)
+  permission Permission @relation(fields: [permissionId], references: [id], onDelete: Cascade)
+
+  @@unique([roleId, permissionId])
+}
+
+model Employee {
+  id               String   @id @default(uuid())
+  companyId        String
+  employeeCode     String
+  name             String
+  department       String
+  roleTitle        String
+  shiftTiming      String?
+  emergencyContact String?
+  location         String   @default("OFFICE")
+  joiningDate      DateTime?
+  baseSalary       Float    @default(0)
+  status           String   @default("ACTIVE")
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  company     Company      @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  attendances Attendance[]
+  payrolls    Payroll[]
+  driver      Driver?
+
+  @@unique([companyId, employeeCode])
+}
+
+model Driver {
+  id               String   @id @default(uuid())
+  companyId        String
+  employeeId       String?  @unique
+  name             String
+  phone            String?
+  emergencyPhone   String?
+  tempAddress      String?
+  permanentAddress String?
+  licenseNumber    String?
+  licenseDate      DateTime?
+  licenseExpiry    DateTime?
+  pccDate          DateTime?
+  pccReceipt       String?
+  medicalDate      DateTime?
+  schoolDone       String?
+  aadharNumber     String?
+  ownerName        String?
+  ownerPhone       String?
+  status           String   @default("ACTIVE")
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  company  Company   @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  employee Employee? @relation(fields: [employeeId], references: [id])
+  vehicles Vehicle[]
+  trips    Trip[]
+  expenses Expense[]
+  trackings DailyVehicleTracking[]
+}
+
+model Vehicle {
+  id                 String   @id @default(uuid())
+  companyId          String
+  registrationNumber String
+  vehicleType        String
+  make               String
+  model              String
+  capacity           String   @default("4+1")
+  fuelType           String   @default("CNG")
+  gpsInstalled       Boolean  @default(false)
+  gpsImei            String?
+  startDate          DateTime?
+  status             String   @default("ACTIVE")
+  stopReason         String?
+  assignedDriverId   String?
+  ownerName          String?
+  ownerPhone         String?
+  remark             String?
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+
+  company          Company                @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  assignedDriver   Driver?                @relation(fields: [assignedDriverId], references: [id])
+  vehicleDocuments VehicleDocument[]
+  trips            Trip[]
+  dailyTrackings   DailyVehicleTracking[]
+  expenses         Expense[]
+
+  @@unique([companyId, registrationNumber])
+}
+
+model VehicleDocument {
+  id             String   @id @default(uuid())
+  companyId      String
+  vehicleId      String
+  documentType   String
+  documentNumber String?
+  issueDate      DateTime?
+  expiryDate     DateTime?
+  fileUrl        String?
+  status         String   @default("VALID")
+  alertDays      Int      @default(30)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  company Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  vehicle Vehicle @relation(fields: [vehicleId], references: [id], onDelete: Cascade)
+
+  @@unique([vehicleId, documentType])
+}
+
+model Trip {
+  id            String   @id @default(uuid())
+  companyId     String
+  tripDate      DateTime
+  clientId      String?
+  vehicleId     String
+  driverId      String?
+  shift         String   @default("DAY")
+  routeName     String?
+  tripDirection String   @default("BOTH")
+  status        String   @default("COMPLETED")
+  remarks       String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  company Company    @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  client  Client?    @relation(fields: [clientId], references: [id])
+  vehicle Vehicle    @relation(fields: [vehicleId], references: [id])
+  driver  Driver?    @relation(fields: [driverId], references: [id])
+  stops   TripStop[]
+}
+
+model TripStop {
+  id            String    @id @default(uuid())
+  tripId        String
+  stopOrder     Int
+  stopName      String
+  landmark      String?
+  scheduledTime String?
+  actualTime    String?
+  stopType      String    @default("PICKUP")
+
+  trip Trip @relation(fields: [tripId], references: [id], onDelete: Cascade)
+}
+
+model DailyVehicleTracking {
+  id                  String   @id @default(uuid())
+  companyId           String
+  trackingDate        DateTime
+  vehicleId           String
+  driverId            String?
+  tripCount           Int      @default(0)
+  attendanceStatus    String   @default("ABSENT")
+  cngExpenseToday     Float    @default(0)
+  cngExpenseMtd       Float    @default(0)
+  cngRecoveryRate     Float    @default(5.0)
+  cngRecoveryAmount   Float    @default(0)
+  totalRecoverableCng Float    @default(0)
+  remarks             String?
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  company Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  vehicle Vehicle @relation(fields: [vehicleId], references: [id])
+  driver  Driver? @relation(fields: [driverId], references: [id])
+
+  @@unique([companyId, trackingDate, vehicleId])
+}
+
+model Attendance {
+  id             String    @id @default(uuid())
+  companyId      String
+  employeeId     String
+  attendanceDate DateTime
+  status         String    @default("PRESENT")
+  checkInTime    String?
+  checkOutTime   String?
+  lateMinutes    Int       @default(0)
+  isLateMark     Boolean   @default(false)
+  remarks        String?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  company  Company  @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  employee Employee @relation(fields: [employeeId], references: [id], onDelete: Cascade)
+
+  @@unique([companyId, employeeId, attendanceDate])
+}
+
+model Payroll {
+  id                   String    @id @default(uuid())
+  companyId            String
+  month                Int
+  year                 Int
+  employeeId           String
+  presentDays          Float     @default(0)
+  absentDays           Float     @default(0)
+  weekOffDays          Float     @default(0)
+  lateMarks            Int       @default(0)
+  lateDeductionDays    Float     @default(0)
+  payableDays          Float     @default(0)
+  attendancePercentage Float     @default(0)
+  baseSalary           Float     @default(0)
+  absentDeduction      Float     @default(0)
+  lateDeduction        Float     @default(0)
+  otherDeductions      Float     @default(0)
+  bonus                Float     @default(0)
+  netSalary            Float     @default(0)
+  status               String    @default("DRAFT")
+  approvedBy           String?
+  approvedAt           DateTime?
+  remarks              String?
+  createdAt            DateTime  @default(now())
+  updatedAt            DateTime  @updatedAt
+
+  company  Company  @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  employee Employee @relation(fields: [employeeId], references: [id], onDelete: Cascade)
+
+  @@unique([companyId, employeeId, month, year])
+}
+
+model Expense {
+  id             String    @id @default(uuid())
+  companyId      String
+  expenseDate    DateTime
+  category       String
+  amount         Float
+  paymentMode    String    @default("ONLINE")
+  paidBy         String?
+  beneficiary    String?
+  description    String?
+  vehicleId      String?
+  driverId       String?
+  billNumber     String?
+  receiptUrl     String?
+  approvalStatus String    @default("DONE")
+  recoveryStatus String    @default("UNRECOVER")
+  approvedBy     String?
+  approvedAt     DateTime?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  company Company  @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  vehicle Vehicle? @relation(fields: [vehicleId], references: [id])
+  driver  Driver?  @relation(fields: [driverId], references: [id])
+}
+
+model Client {
+  id               String   @id @default(uuid())
+  companyId        String
+  name             String
+  code             String
+  contactPerson    String?
+  email            String?
+  phone            String?
+  officeContact    String?
+  misContact       String?
+  inductionContact String?
+  billingContact   String?
+  address          String?
+  gstNumber        String?
+  status           String   @default("ACTIVE")
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  company   Company          @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  rateCards ClientRateCard[]
+  trips     Trip[]
+  invoices  Invoice[]
+
+  @@unique([companyId, code])
+}
+
+model ClientRateCard {
+  id            String   @id @default(uuid())
+  companyId     String
+  clientId      String
+  vehicleType   String
+  isAc          Boolean  @default(true)
+  minDistanceKm Float    @default(0)
+  maxDistanceKm Float    @default(10)
+  rateType      String   @default("SLAB")
+  baseRate      Float
+  extraKmRate   Float?
+  shiftTiming   String?
+  effectiveDate DateTime @default(now())
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  company Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  client  Client  @relation(fields: [clientId], references: [id], onDelete: Cascade)
+}
+
+model Invoice {
+  id                 String        @id @default(uuid())
+  companyId          String
+  clientId           String
+  invoiceNumber      String
+  invoiceDate        DateTime
+  dueDate            DateTime?
+  billingPeriodStart DateTime?
+  billingPeriodEnd   DateTime?
+  subtotal           Float         @default(0)
+  taxAmount          Float         @default(0)
+  totalAmount        Float         @default(0)
+  paidAmount         Float         @default(0)
+  balanceAmount      Float         @default(0)
+  status             String        @default("SENT")
+  notes              String?
+  pdfUrl             String?
+  createdAt          DateTime      @default(now())
+  updatedAt          DateTime      @updatedAt
+
+  company Company       @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  client  Client        @relation(fields: [clientId], references: [id])
+  items   InvoiceItem[]
+
+  @@unique([companyId, invoiceNumber])
+}
+
+model InvoiceItem {
+  id          String  @id @default(uuid())
+  invoiceId   String
+  description String
+  vehicleType String?
+  tripCount   Int     @default(1)
+  rate        Float
+  amount      Float
+
+  invoice Invoice @relation(fields: [invoiceId], references: [id], onDelete: Cascade)
+}
+
+model Task {
+  id            String    @id @default(uuid())
+  companyId     String
+  taskDate      DateTime  @default(now())
+  department    String
+  assigneeId    String?
+  assigneeName  String?
+  description   String
+  priority      String    @default("MEDIUM")
+  status        String    @default("NOT_STARTED")
+  bossRemarks   String?
+  dueDate       DateTime?
+  completedDate DateTime?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  company  Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  assignee User?   @relation("AssigneeTasks", fields: [assigneeId], references: [id])
+}
+
+model AuditLog {
+  id        String   @id @default(uuid())
+  companyId String
+  userId    String?
+  action    String
+  entity    String
+  entityId  String?
+  details   String?
+  ipAddress String?
+  userAgent String?
+  createdAt DateTime @default(now())
+
+  company Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  user    User?   @relation(fields: [userId], references: [id])
+}
+
+model ImportJob {
+  id           String   @id @default(uuid())
+  companyId    String
+  fileName     String
+  sheetName    String
+  totalRows    Int      @default(0)
+  importedRows Int      @default(0)
+  failedRows   Int      @default(0)
+  status       String   @default("PENDING")
+  errorLog     String?
+  createdBy    String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  company Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+}

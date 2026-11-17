@@ -1,7 +1,17 @@
 import axios from 'axios';
 
+// Base API configuration with support for cloud-deployed backends
+const resolveApiBase = (): string => {
+  const envUrl = import.meta.env.VITE_API_URL;
+  if (!envUrl) return '/api';
+  const cleanUrl = envUrl.trim().replace(/\/+$/, '');
+  return cleanUrl.endsWith('/api') ? cleanUrl : `${cleanUrl}/api`;
+};
+
+export const API_BASE_URL = resolveApiBase();
+
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: API_BASE_URL,
 });
 
 api.interceptors.request.use((config) => {
@@ -92,7 +102,7 @@ export const Api = {
   getInvoice: (id: string) => api.get(`/invoices/${id}`),
   createInvoice: (data: any) => api.post('/invoices', data),
   recordPayment: (id: string, amount: number) => api.post(`/invoices/${id}/payment`, { amount }),
-  downloadInvoicePdfUrl: (id: string) => `/api/invoices/${id}/pdf`,
+  downloadInvoicePdfUrl: (id: string) => `${API_BASE_URL}/invoices/${id}/pdf`,
 
   // Tasks
   listTasks: (params?: any) => api.get('/tasks', { params }),
@@ -101,10 +111,10 @@ export const Api = {
   deleteTask: (id: string) => api.delete(`/tasks/${id}`),
 
   // Reports
-  exportFleetComplianceUrl: () => '/api/reports/fleet/export',
-  exportPayrollUrl: (m = 11, y = 2026) => `/api/reports/payroll/export?month=${m}&year=${y}`,
+  exportFleetComplianceUrl: () => `${API_BASE_URL}/reports/fleet/export`,
+  exportPayrollUrl: (m = 11, y = 2026) => `${API_BASE_URL}/reports/payroll/export?month=${m}&year=${y}`,
   exportDailyTrackerUrl: (date?: string) =>
-    `/api/reports/tracker/export${date ? `?date=${date}` : ''}`,
+    `${API_BASE_URL}/reports/tracker/export${date ? `?date=${date}` : ''}`,
 
   // Excel Import
   inspectExcel: (formData: FormData) =>

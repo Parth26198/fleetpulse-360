@@ -126,9 +126,15 @@ async function main() {
   }
 
   // 4. Load JSON seed data extracted from Excel workbook
-  const seedPath = path.join(__dirname, 'seedData.json');
+  let seedPath = path.join(__dirname, 'seedData.json');
   if (!fs.existsSync(seedPath)) {
-    console.error('seedData.json not found! Run scratch/generate_seed_json.py first.');
+    seedPath = path.join(process.cwd(), 'prisma', 'seedData.json');
+  }
+  if (!fs.existsSync(seedPath)) {
+    seedPath = path.join(process.cwd(), 'backend', 'prisma', 'seedData.json');
+  }
+  if (!fs.existsSync(seedPath)) {
+    console.error(`seedData.json not found in ${seedPath} or alternative paths!`);
     return;
   }
   const rawData = fs.readFileSync(seedPath, 'utf-8');
