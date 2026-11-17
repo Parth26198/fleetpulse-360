@@ -144,8 +144,9 @@ To guarantee an instant, lightning-fast first impression for Shreej Logistics:
    | `NODE_ENV` | `production` | Enables Express production optimizations |
    | `PORT` | `10000` | Render default web service port |
    | `DATABASE_URL` | *[Paste your Neon Pooled Connection String from Step 1]* | Must include `?sslmode=require` |
-   | `JWT_SECRET` | `fleetpulse360-super-secure-production-key-2026` | 32+ character random secret |
+   | `JWT_SECRET` | *[Generate via `crypto.randomBytes(32)` or let Render auto-generate]* | Generate using: `node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"`. Never use hardcoded secrets. |
    | `JWT_EXPIRES_IN` | `7d` | Token lifetime |
+   | `FRONTEND_URL` | `https://fleetpulse-360.vercel.app` | Restricts API access exclusively to your deployed Vercel frontend |
 6. Set **Health Check Path** under Advanced to: `/api/health`.
 7. Click **Create Web Service**.
 8. Wait ~2 minutes for the build to finish. Once live, Render displays your API URL:

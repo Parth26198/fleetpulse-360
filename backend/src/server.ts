@@ -15,8 +15,37 @@ app.use(helmet({
 }));
 
 // Cross-origin resource sharing
+const isProd = ENV.NODE_ENV === 'production';
+const allowedFrontendUrl = (ENV.FRONTEND_URL || '').trim().replace(/\/+$/, '');
+
 app.use(cors({
-  origin: '*',
+  origin: (origin, callback) => {
+    // Allow non-browser requests (e.g. server-to-server health checks, curl, mobile clients)
+    if (!origin) return callback(null, true);
+
+    // Allow all in development or when explicitly enabled
+    if (!isProd || process.env.CORS_ORIGIN === '*') {
+      return callback(null, true);
+    }
+
+    try {
+      const parsed = new URL(origin);
+      // Allow configured FRONTEND_URL or any Vercel deployment preview (*.vercel.app)
+      if (
+        origin === allowedFrontendUrl ||
+        parsed.hostname.endsWith('.vercel.app') ||
+        parsed.hostname === 'localhost' ||
+        parsed.hostname === '127.0.0.1'
+      ) {
+        return callback(null, true);
+      }
+    } catch {
+      // Invalid URL format
+    }
+
+    return callback(new Error(`CORS policy: Access denied from origin ${origin}`));
+  },
+  credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With'],
 }));
@@ -51,12 +80,16 @@ app.use('/api', apiRouter);
 // Global Error Handler
 app.use(errorHandler);
 
-// Bootstrap
-const PORT = ENV.PORT;
-const server = app.listen(PORT, () => {
-  console.log(`🚀 FLEETPULSE 360 Backend running on http://localhost:${PORT}`);
-  console.log(`📡 Health Check: http://localhost:${PORT}/api/health`);
-});
+// Bootstrap (Listen when not in test mode)
+const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : ENV.PORT;
+let server: any;
+
+if (process.env.NODE_ENV !== 'test') {
+  server = app.listen(PORT, () => {
+    console.log(`🚀 FLEETPULSE 360 Backend running on http://localhost:${PORT}`);
+    console.log(`📡 Health Check: http://localhost:${PORT}/api/health`);
+  });
+}
 
 // Graceful shutdown
 process.on('SIGINT', async () => {

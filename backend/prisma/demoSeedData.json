@@ -1,0 +1,6240 @@
+{
+  "active_vehicles": [
+    {
+      "registrationNumber": "MH-12-XM-9828",
+      "vehicleType": "SUV",
+      "make": "Maruti Suzuki",
+      "model": "Ertiga",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": true,
+      "ownerName": "Vishnu Marne",
+      "ownerPhone": "77760 61289",
+      "remark": "",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 1",
+        "phone": "+91 98200 0001",
+        "emergencyPhone": "+91 98201 0001",
+        "tempAddress": "Demo Transport Colony, Sector 2, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411001",
+        "licenseNumber": "MH12 20250001",
+        "licenseDate": "2024-12-27",
+        "licenseExpiry": "2029-12-26",
+        "pccDate": "2026-12-11",
+        "pccReceipt": "YES",
+        "medicalDate": "2026-10-12",
+        "schoolDone": "YES",
+        "aadharNumber": "XXXX-XXXX-0001",
+        "ownerName": "Fleet Vendor 2",
+        "ownerPhone": "+91 98202 0001"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2025-04-15"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2027-04-14"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2027-01-31"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2030-04-21"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2026-11-21"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2027-07-04"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-12-VF-9431",
+      "vehicleType": "SUV",
+      "make": "Maruti Suzuki",
+      "model": "Ertiga",
+      "capacity": "6+1",
+      "fuelType": "CNG",
+      "gpsInstalled": true,
+      "ownerName": "Lakhan Pradip Jadhao",
+      "ownerPhone": "76665 72009",
+      "remark": "OK",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 2",
+        "phone": "+91 98200 0002",
+        "emergencyPhone": "+91 98201 0002",
+        "tempAddress": "Demo Transport Colony, Sector 3, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411002",
+        "licenseNumber": "MH12 20250002",
+        "licenseDate": "2024-12-30",
+        "licenseExpiry": "2029-12-29",
+        "pccDate": "2026-05-08",
+        "pccReceipt": "YES",
+        "medicalDate": "2026-12-26",
+        "schoolDone": "YES",
+        "aadharNumber": "XXXX-XXXX-0002",
+        "ownerName": "Fleet Vendor 3",
+        "ownerPhone": "+91 98202 0002"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2023-08-08"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2027-12-28"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2026-11-30"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2028-08-18"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2026-11-25"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2027-08-28"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-14-MH-1298",
+      "vehicleType": "SUV",
+      "make": "Maruti Suzuki",
+      "model": "Ertiga",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": true,
+      "ownerName": "Rohit Yovraj Sonavane",
+      "ownerPhone": "93730 60258",
+      "remark": "OK",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 3",
+        "phone": "+91 98200 0003",
+        "emergencyPhone": "+91 98201 0003",
+        "tempAddress": "Demo Transport Colony, Sector 4, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411003",
+        "licenseNumber": "MH12 20250003",
+        "licenseDate": "2023-12-10",
+        "licenseExpiry": "2028-11-10",
+        "pccDate": "2026-11-25",
+        "pccReceipt": "YES",
+        "medicalDate": "2026-11-19",
+        "schoolDone": "YES",
+        "aadharNumber": "XXXX-XXXX-0003",
+        "ownerName": "Fleet Vendor 4",
+        "ownerPhone": "+91 98202 0003"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2025-06-05"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2027-05-05"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2026-11-30"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2030-05-14"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2027-05-25"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2027-04-24"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-12-YB-8380",
+      "vehicleType": "Sedan",
+      "make": "Maruti Suzuki",
+      "model": "Swift Dezire",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": true,
+      "ownerName": "Aniket Shrikant Nimbhorkar",
+      "ownerPhone": "91568 80609",
+      "remark": "",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 4",
+        "phone": "+91 98200 0004",
+        "emergencyPhone": "+91 98201 0004",
+        "tempAddress": "Demo Transport Colony, Sector 5, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411004",
+        "licenseNumber": "MH12 20250004",
+        "licenseDate": "2025-10-12",
+        "licenseExpiry": "2030-09-12",
+        "pccDate": "2027-04-04",
+        "pccReceipt": "YES",
+        "medicalDate": "2027-06-01",
+        "schoolDone": "YES",
+        "aadharNumber": "XXXX-XXXX-0004",
+        "ownerName": "Fleet Vendor 5",
+        "ownerPhone": "+91 98202 0004"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2025-08-30"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2027-08-29"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2027-08-31"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2030-09-03"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2027-02-01"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2027-08-27"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-14-MT-9392",
+      "vehicleType": "Sedan",
+      "make": "Maruti Suzuki",
+      "model": "Ertiga",
+      "capacity": "6+1",
+      "fuelType": "CNG",
+      "gpsInstalled": true,
+      "ownerName": "Swati Pankaj Tivari",
+      "ownerPhone": "98501 49392",
+      "remark": "",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 5",
+        "phone": "+91 98200 0005",
+        "emergencyPhone": "+91 98201 0005",
+        "tempAddress": "Demo Transport Colony, Sector 6, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411005",
+        "licenseNumber": "MH12 20250005",
+        "licenseDate": "2026-11-05",
+        "licenseExpiry": "2031-11-05",
+        "pccDate": "2027-03-18",
+        "pccReceipt": "YES",
+        "medicalDate": "2026-02-23",
+        "schoolDone": "YES",
+        "aadharNumber": "XXXX-XXXX-0005",
+        "ownerName": "Fleet Vendor 1",
+        "ownerPhone": "+91 98202 0005"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2026-01-31"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2028-01-30"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2026-12-31"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2031-02-05"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2027-02-17"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2027-01-24"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-12-ZE-0894",
+      "vehicleType": "SUV",
+      "make": "Maruti Suzuki",
+      "model": "Swift Dezire",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": true,
+      "ownerName": "Nikhil Sunil Shinde",
+      "ownerPhone": "70665 35437",
+      "remark": "",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 6",
+        "phone": "+91 98200 0006",
+        "emergencyPhone": "+91 98201 0006",
+        "tempAddress": "Demo Transport Colony, Sector 7, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411006",
+        "licenseNumber": "MH12 20250006",
+        "licenseDate": "2025-10-15",
+        "licenseExpiry": "2030-10-14",
+        "pccDate": "2026-06-03",
+        "pccReceipt": "YES",
+        "medicalDate": "2027-09-03",
+        "schoolDone": "YES",
+        "aadharNumber": "XXXX-XXXX-0006",
+        "ownerName": "Fleet Vendor 2",
+        "ownerPhone": "+91 98202 0006"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2026-10-02"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2028-09-02"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2027-01-31"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2031-09-03"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2027-03-13"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2027-01-19"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-14-MT-8329",
+      "vehicleType": "Sedan",
+      "make": "Maruti Suzuki",
+      "model": "Swift Dezire",
+      "capacity": "6+1",
+      "fuelType": "CNG",
+      "gpsInstalled": true,
+      "ownerName": "Subhash Samadhan Mokale",
+      "ownerPhone": "7517416787",
+      "remark": "",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 7",
+        "phone": "+91 98200 0007",
+        "emergencyPhone": "+91 98201 0007",
+        "tempAddress": "Demo Transport Colony, Sector 8, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411007",
+        "licenseNumber": "MH12 20250007",
+        "licenseDate": "2022-12-28",
+        "licenseExpiry": "2027-12-27",
+        "pccDate": "2026-02-21",
+        "pccReceipt": "YES",
+        "medicalDate": "2027-03-23",
+        "schoolDone": "YES",
+        "aadharNumber": "XXXX-XXXX-0007",
+        "ownerName": "Fleet Vendor 3",
+        "ownerPhone": "+91 98202 0007"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2026-09-02"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2028-08-02"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2027-01-31"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2031-02-22"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2027-03-23"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2027-03-02"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-12-WJ-3360",
+      "vehicleType": "Sedan",
+      "make": "Maruti Suzuki",
+      "model": "Swift Dezire",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": true,
+      "ownerName": "NANASAHEB APPASAHEB MARADE",
+      "ownerPhone": "8600380757",
+      "remark": "OK",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 8",
+        "phone": "+91 98200 0008",
+        "emergencyPhone": "+91 98201 0008",
+        "tempAddress": "Demo Transport Colony, Sector 9, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411008",
+        "licenseNumber": "MH12 20250008",
+        "licenseDate": "2025-11-24",
+        "licenseExpiry": "2030-11-23",
+        "pccDate": "2027-11-02",
+        "pccReceipt": "YES",
+        "medicalDate": null,
+        "schoolDone": "YES",
+        "aadharNumber": "XXXX-XXXX-0008",
+        "ownerName": "Fleet Vendor 4",
+        "ownerPhone": "+91 98202 0008"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2024-08-03"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2028-04-26"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2026-11-30"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2029-03-13"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2027-06-14"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2027-05-26"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-18-BZ-4032",
+      "vehicleType": "SUV",
+      "make": "Maruti Suzuki",
+      "model": "Ertiga",
+      "capacity": "6+1",
+      "fuelType": "CNG",
+      "gpsInstalled": true,
+      "ownerName": "KETAN SATISHCHANDRA AKHADMAL",
+      "ownerPhone": "8275007522",
+      "remark": "OK",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 9",
+        "phone": "+91 98200 0009",
+        "emergencyPhone": "+91 98201 0009",
+        "tempAddress": "Demo Transport Colony, Sector 10, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411009",
+        "licenseNumber": "MH12 20250009",
+        "licenseDate": "2025-03-02",
+        "licenseExpiry": "2030-02-02",
+        "pccDate": "2026-05-16",
+        "pccReceipt": "YES",
+        "medicalDate": "2027-04-25",
+        "schoolDone": "YES",
+        "aadharNumber": "XXXX-XXXX-0009",
+        "ownerName": "Fleet Vendor 5",
+        "ownerPhone": "+91 98202 0009"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2025-03-09"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2027-09-29"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2026-11-30"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2030-09-30"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2026-12-11"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2027-09-26"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-14-KQ-6996",
+      "vehicleType": "Sedan",
+      "make": "Maruti Suzuki",
+      "model": "Swift Dezire",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": true,
+      "ownerName": "Tapkir Kamal Dashrath",
+      "ownerPhone": "99228 92162",
+      "remark": "",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 10",
+        "phone": "+91 98200 0010",
+        "emergencyPhone": "+91 98201 0010",
+        "tempAddress": "Demo Transport Colony, Sector 1, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411010",
+        "licenseNumber": "MH12 20250010",
+        "licenseDate": "2024-09-20",
+        "licenseExpiry": "2029-09-19",
+        "pccDate": "2025-07-17",
+        "pccReceipt": "YES",
+        "medicalDate": "2026-02-25",
+        "schoolDone": "YES",
+        "aadharNumber": "XXXX-XXXX-0010",
+        "ownerName": "Fleet Vendor 1",
+        "ownerPhone": "+91 98202 0010"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2023-05-04"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2027-04-14"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2028-06-04"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2027-04-27"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2027-02-16"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-14-KU-6996",
+      "vehicleType": "SUV",
+      "make": "Maruti Suzuki",
+      "model": "Ertiga",
+      "capacity": "6+1",
+      "fuelType": "CNG",
+      "gpsInstalled": true,
+      "ownerName": "Tapkir Kamal Dashrath",
+      "ownerPhone": "99228 92162",
+      "remark": "OK",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 11",
+        "phone": "+91 98200 0011",
+        "emergencyPhone": "+91 98201 0011",
+        "tempAddress": "Demo Transport Colony, Sector 2, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411011",
+        "licenseNumber": "MH12 20250011",
+        "licenseDate": "2024-05-02",
+        "licenseExpiry": "2029-04-02",
+        "pccDate": "2026-03-19",
+        "pccReceipt": "YES",
+        "medicalDate": "2026-02-03",
+        "schoolDone": "YES",
+        "aadharNumber": "XXXX-XXXX-0011",
+        "ownerName": "Fleet Vendor 2",
+        "ownerPhone": "+91 98202 0011"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2023-08-24"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2027-08-23"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2027-01-31"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2028-08-24"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2027-07-09"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2027-09-08"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-12-XM-2511",
+      "vehicleType": "Sedan",
+      "make": "Maruti Suzuki",
+      "model": "Swift Dezire",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": true,
+      "ownerName": "Tapkir Kamal Dashrath",
+      "ownerPhone": "99228 92162",
+      "remark": "",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 12",
+        "phone": "+91 98200 0012",
+        "emergencyPhone": "+91 98201 0012",
+        "tempAddress": "Demo Transport Colony, Sector 3, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411012",
+        "licenseNumber": "MH12 20250012",
+        "licenseDate": "2022-01-28",
+        "licenseExpiry": "2039-01-11",
+        "pccDate": "2026-11-03",
+        "pccReceipt": "YES",
+        "medicalDate": "2027-02-26",
+        "schoolDone": "YES",
+        "aadharNumber": "XXXX-XXXX-0012",
+        "ownerName": "Fleet Vendor 3",
+        "ownerPhone": "+91 98202 0012"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2024-11-28"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2026-11-27"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2027-01-31"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2029-11-28"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2027-01-26"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2027-08-11"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-26-CH-3140",
+      "vehicleType": "Sedan",
+      "make": "Maruti Suzuki",
+      "model": "Swift Dezire",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": true,
+      "ownerName": "Shivanand Virbhadra Kyadarkunte",
+      "ownerPhone": "80079 48239",
+      "remark": "",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 13",
+        "phone": "+91 98200 0013",
+        "emergencyPhone": "+91 98201 0013",
+        "tempAddress": "Demo Transport Colony, Sector 4, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411013",
+        "licenseNumber": "MH12 20250013",
+        "licenseDate": "2022-02-04",
+        "licenseExpiry": "2040-10-15",
+        "pccDate": "2025-12-14",
+        "pccReceipt": "YES",
+        "medicalDate": "2025-05-05",
+        "schoolDone": "YES",
+        "aadharNumber": "XXXX-XXXX-0013",
+        "ownerName": "Fleet Vendor 4",
+        "ownerPhone": "+91 98202 0013"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2025-04-07"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2027-03-07"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2027-06-30"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2030-07-03"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2027-07-14"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2027-06-30"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-12-YB-7602",
+      "vehicleType": "Sedan",
+      "make": "Maruti Suzuki",
+      "model": "Swift Dezire",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": true,
+      "ownerName": "Sadanand Jadhav",
+      "ownerPhone": "92846 51701",
+      "remark": "OK",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 14",
+        "phone": "+91 98200 0014",
+        "emergencyPhone": "+91 98201 0014",
+        "tempAddress": "Demo Transport Colony, Sector 5, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411014",
+        "licenseNumber": "MH12 20250014",
+        "licenseDate": "2025-09-05",
+        "licenseExpiry": "2030-08-05",
+        "pccDate": "2026-11-25",
+        "pccReceipt": "YES",
+        "medicalDate": "2025-04-12",
+        "schoolDone": "YES",
+        "aadharNumber": "XXXX-XXXX-0014",
+        "ownerName": "Fleet Vendor 5",
+        "ownerPhone": "+91 98202 0014"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2025-08-21"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2027-08-20"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2026-11-30"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2030-08-21"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2026-11-14"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-14-LB-6007",
+      "vehicleType": "Sedan",
+      "make": "HYUNDAI",
+      "model": "Aura",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": false,
+      "ownerName": "Pranit Dongare",
+      "ownerPhone": "7249828009",
+      "remark": "OK",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 15",
+        "phone": "+91 98200 0015",
+        "emergencyPhone": "+91 98201 0015",
+        "tempAddress": "Demo Transport Colony, Sector 6, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411015",
+        "licenseNumber": "MH12 20250015",
+        "licenseDate": "2023-09-25",
+        "licenseExpiry": "2028-09-24",
+        "pccDate": "2026-11-13",
+        "pccReceipt": "YES",
+        "medicalDate": "2026-02-06",
+        "schoolDone": "YES",
+        "aadharNumber": "XXXX-XXXX-0015",
+        "ownerName": "Fleet Vendor 1",
+        "ownerPhone": "+91 98202 0015"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2024-05-02"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2028-05-28"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2027-11-30"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2029-11-03"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2027-05-28"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2027-04-11"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-14-LB-5196",
+      "vehicleType": "Sedan",
+      "make": "Maruti Suzuki",
+      "model": "Swift Dezire",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": true,
+      "ownerName": "SHAIKH SHAHABAJ HANIF",
+      "ownerPhone": "9922453838",
+      "remark": "OK",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 16",
+        "phone": "+91 98200 0016",
+        "emergencyPhone": "+91 98201 0016",
+        "tempAddress": "Demo Transport Colony, Sector 7, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411016",
+        "licenseNumber": "MH12 20250016",
+        "licenseDate": "2024-08-19",
+        "licenseExpiry": "2029-08-18",
+        "pccDate": "2027-11-01",
+        "pccReceipt": "YES",
+        "medicalDate": "2026-01-18",
+        "schoolDone": "YES",
+        "aadharNumber": "XXXX-XXXX-0016",
+        "ownerName": "Fleet Vendor 2",
+        "ownerPhone": "+91 98202 0016"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2024-11-01"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2028-01-28"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2026-11-30"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2029-01-14"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2027-01-28"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2026-11-29"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-14-MT- 4642",
+      "vehicleType": "Sedan",
+      "make": "HYUNDAI",
+      "model": "Aura",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": false,
+      "ownerName": "PRAGATI LAKHAN TUPAUNDARYA",
+      "ownerPhone": "9665610607",
+      "remark": "",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 17",
+        "phone": "+91 98200 0017",
+        "emergencyPhone": "+91 98201 0017",
+        "tempAddress": "Demo Transport Colony, Sector 8, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411017",
+        "licenseNumber": "MH12 20250017",
+        "licenseDate": "2025-11-17",
+        "licenseExpiry": "2030-11-16",
+        "pccDate": "2026-03-08",
+        "pccReceipt": "YES",
+        "medicalDate": "2026-07-30",
+        "schoolDone": "YES",
+        "aadharNumber": "XXXX-XXXX-0017",
+        "ownerName": "Fleet Vendor 3",
+        "ownerPhone": "+91 98202 0017"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2025-11-12"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2027-10-12"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2026-11-30"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2030-12-23"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2027-01-07"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2026-11-30"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-14-KA-6378",
+      "vehicleType": "Sedan",
+      "make": "MARUTI SUZUKI",
+      "model": "Swift Dezire",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": false,
+      "ownerName": "HARSHAD VIDHYAGHAR",
+      "ownerPhone": "8484951881",
+      "remark": "OK",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 18",
+        "phone": "+91 98200 0018",
+        "emergencyPhone": "+91 98201 0018",
+        "tempAddress": "Demo Transport Colony, Sector 9, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411018",
+        "licenseNumber": "MH12 20250018",
+        "licenseDate": "2023-04-01",
+        "licenseExpiry": "2027-06-10",
+        "pccDate": "2026-03-06",
+        "pccReceipt": "YES",
+        "medicalDate": "2026-10-07",
+        "schoolDone": "YES",
+        "aadharNumber": "XXXX-XXXX-0018",
+        "ownerName": "Fleet Vendor 4",
+        "ownerPhone": "+91 98202 0018"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2022-10-28"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2027-10-29"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2027-01-31"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2027-11-22"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2027-09-25"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2027-06-21"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-12-YQ-9693",
+      "vehicleType": "Sedan",
+      "make": "HYUNDAI",
+      "model": "Aura",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": false,
+      "ownerName": "SAYALI AKSHAY HAIBATTI",
+      "ownerPhone": "832 992 5019",
+      "remark": "",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 19",
+        "phone": "+91 98200 0019",
+        "emergencyPhone": "+91 98201 0019",
+        "tempAddress": "Demo Transport Colony, Sector 10, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411019",
+        "licenseNumber": "MH12 20250019",
+        "licenseDate": "2025-07-21",
+        "licenseExpiry": "2030-07-20",
+        "pccDate": "2026-08-20",
+        "pccReceipt": "YES",
+        "medicalDate": "2026-08-21",
+        "schoolDone": "YES",
+        "aadharNumber": "XXXX-XXXX-0019",
+        "ownerName": "Fleet Vendor 5",
+        "ownerPhone": "+91 98202 0019"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2026-01-22"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2028-01-21"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2026-11-30"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2031-01-26"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2027-08-20"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2027-01-14"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-14-KA-6996",
+      "vehicleType": "Sedan",
+      "make": "Maruti Suzuki",
+      "model": "Swift Dezire",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": true,
+      "ownerName": "Tapkir Kamal Dashrath",
+      "ownerPhone": "99228 92162",
+      "remark": "",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 20",
+        "phone": "+91 98200 0020",
+        "emergencyPhone": "+91 98201 0020",
+        "tempAddress": "Demo Transport Colony, Sector 1, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411020",
+        "licenseNumber": "MH12 20250020",
+        "licenseDate": "2025-06-02",
+        "licenseExpiry": "2030-05-02",
+        "pccDate": "2026-10-16",
+        "pccReceipt": "YES",
+        "medicalDate": "2024-11-25",
+        "schoolDone": "NO",
+        "aadharNumber": "XXXX-XXXX-0020",
+        "ownerName": "Fleet Vendor 1",
+        "ownerPhone": "+91 98202 0020"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2022-12-07"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2028-11-07"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2027-03-31"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2027-11-30"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2027-08-07"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2027-05-26"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-12-VT-0033",
+      "vehicleType": "Sedan",
+      "make": "Maruti Suzuki",
+      "model": "Swift Dezire",
+      "capacity": "4+1",
+      "fuelType": "DISEL'",
+      "gpsInstalled": true,
+      "ownerName": "Tapkir Kamal Dashrath",
+      "ownerPhone": "99229 92162",
+      "remark": "",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 21",
+        "phone": "+91 98200 0021",
+        "emergencyPhone": "+91 98201 0021",
+        "tempAddress": "Demo Transport Colony, Sector 2, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411021",
+        "licenseNumber": "MH12 20250021",
+        "licenseDate": "2026-05-20",
+        "licenseExpiry": "2031-05-19",
+        "pccDate": "2026-11-03",
+        "pccReceipt": "YES",
+        "medicalDate": "2026-02-26",
+        "schoolDone": "YES",
+        "aadharNumber": "XXXX-XXXX-0021",
+        "ownerName": "Fleet Vendor 2",
+        "ownerPhone": "+91 98202 0021"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2022-06-30"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2027-10-16"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2027-01-31"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2027-09-10"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2027-10-06"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2027-02-06"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-12-UM-8200",
+      "vehicleType": "SUV",
+      "make": "Maruti Suzuki",
+      "model": "Ertiga",
+      "capacity": "6+1",
+      "fuelType": "CNG",
+      "gpsInstalled": true,
+      "ownerName": "Tapkir Kamal Dashrath",
+      "ownerPhone": "99228 92162",
+      "remark": "",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 22",
+        "phone": "+91 98200 0022",
+        "emergencyPhone": "+91 98201 0022",
+        "tempAddress": "Demo Transport Colony, Sector 3, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411022",
+        "licenseNumber": "MH12 20250022",
+        "licenseDate": "2022-07-13",
+        "licenseExpiry": "2027-12-07",
+        "pccDate": "2025-05-06",
+        "pccReceipt": "YES",
+        "medicalDate": "2024-10-25",
+        "schoolDone": "NO",
+        "aadharNumber": "XXXX-XXXX-0022",
+        "ownerName": "Fleet Vendor 3",
+        "ownerPhone": "+91 98202 0022"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2022-06-12"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2027-03-30"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2026-11-30"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2029-12-28"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2027-01-15"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2026-11-17"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-14-MT-4985",
+      "vehicleType": "Sedan",
+      "make": "HYUNDAI",
+      "model": "Aura",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": false,
+      "ownerName": "KISHAN BABAN SHITOLE",
+      "ownerPhone": "8805761289",
+      "remark": "OK",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 23",
+        "phone": "+91 98200 0023",
+        "emergencyPhone": "+91 98201 0023",
+        "tempAddress": "Demo Transport Colony, Sector 4, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411023",
+        "licenseNumber": "MH12 20250023",
+        "licenseDate": "2025-12-11",
+        "licenseExpiry": "2027-01-21",
+        "pccDate": "2026-08-18",
+        "pccReceipt": "YES",
+        "medicalDate": null,
+        "schoolDone": "YES",
+        "aadharNumber": "XXXX-XXXX-0023",
+        "ownerName": "Fleet Vendor 4",
+        "ownerPhone": "+91 98202 0023"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2025-12-19"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2027-12-18"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2026-11-30"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2030-12-23"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2026-12-18"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-24-BW-1615",
+      "vehicleType": "Sedan",
+      "make": "HYUNDAI",
+      "model": "Aura",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": false,
+      "ownerName": "LAXMIKANT POTDAR",
+      "ownerPhone": "9960747633",
+      "remark": "",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 24",
+        "phone": "+91 98200 0024",
+        "emergencyPhone": "+91 98201 0024",
+        "tempAddress": "Demo Transport Colony, Sector 5, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411024",
+        "licenseNumber": "MH12 20250024",
+        "licenseDate": "2025-04-24",
+        "licenseExpiry": "2030-02-26",
+        "pccDate": "2027-02-04",
+        "pccReceipt": "YES",
+        "medicalDate": "2027-03-25",
+        "schoolDone": "YES",
+        "aadharNumber": "XXXX-XXXX-0024",
+        "ownerName": "Fleet Vendor 5",
+        "ownerPhone": "+91 98202 0024"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2025-12-02"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2027-11-02"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2026-10-31"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2030-02-16"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2027-09-03"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2027-04-02"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-14-LB-5196",
+      "vehicleType": "Sedan",
+      "make": "Maruti Suzuki",
+      "model": "Swift Dezire",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": true,
+      "ownerName": "SHAIKH SHAHABAJ HANIF",
+      "ownerPhone": "9922453838",
+      "remark": "OK",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 25",
+        "phone": "+91 98200 0025",
+        "emergencyPhone": "+91 98201 0025",
+        "tempAddress": "Demo Transport Colony, Sector 6, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411025",
+        "licenseNumber": "MH12 20250025",
+        "licenseDate": "2025-07-03",
+        "licenseExpiry": "2030-06-03",
+        "pccDate": "2026-01-23",
+        "pccReceipt": "YES",
+        "medicalDate": "2026-01-19",
+        "schoolDone": "YES",
+        "aadharNumber": "XXXX-XXXX-0025",
+        "ownerName": "Fleet Vendor 1",
+        "ownerPhone": "+91 98202 0025"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2025-11-03"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2027-10-03"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2026-11-30"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2030-03-14"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2027-02-06"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2027-07-22"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-12-XM-0306",
+      "vehicleType": "Sedan",
+      "make": "HYUNDAI",
+      "model": "Aura",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": false,
+      "ownerName": "Santosh Vitthal Petkar",
+      "ownerPhone": "7030181012",
+      "remark": "OK",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 26",
+        "phone": "+91 98200 0026",
+        "emergencyPhone": "+91 98201 0026",
+        "tempAddress": "Demo Transport Colony, Sector 7, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411026",
+        "licenseNumber": "MH12 20250026",
+        "licenseDate": "2027-11-07",
+        "licenseExpiry": "2030-10-07",
+        "pccDate": "2026-05-10",
+        "pccReceipt": "YES",
+        "medicalDate": "2027-07-10",
+        "schoolDone": "YES",
+        "aadharNumber": "XXXX-XXXX-0026",
+        "ownerName": "Fleet Vendor 2",
+        "ownerPhone": "+91 98202 0026"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2024-03-12"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2026-02-12"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2026-11-30"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2029-12-12"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2027-06-21"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2027-01-22"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-14-NP-3080",
+      "vehicleType": "Sedan",
+      "make": "MARUTI SUZUKI",
+      "model": "Aura",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": false,
+      "ownerName": "Sangram Sayaji Sawant",
+      "ownerPhone": "9604799790",
+      "remark": "",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 27",
+        "phone": "+91 98200 0027",
+        "emergencyPhone": "+91 98201 0027",
+        "tempAddress": "Demo Transport Colony, Sector 8, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411027",
+        "licenseNumber": "MH12 20250027",
+        "licenseDate": "2025-08-12",
+        "licenseExpiry": "1930-12-07",
+        "pccDate": "2026-10-08",
+        "pccReceipt": "YES",
+        "medicalDate": "2027-10-06",
+        "schoolDone": "YES",
+        "aadharNumber": "XXXX-XXXX-0027",
+        "ownerName": "Fleet Vendor 3",
+        "ownerPhone": "+91 98202 0027"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2026-09-28"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2028-09-27"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2027-08-31"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2031-06-10"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2027-07-11"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2027-09-17"
+        }
+      ]
+    },
+    {
+      "registrationNumber": "MH-12-UM-5035",
+      "vehicleType": "Sedan",
+      "make": "MARUTI SUZUKI",
+      "model": "Aura",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": false,
+      "ownerName": "Dhale Akash Jivan",
+      "ownerPhone": "8407960564",
+      "remark": "OK",
+      "status": "ACTIVE",
+      "driver": {
+        "name": "Demo Driver 28",
+        "phone": "+91 98200 0028",
+        "emergencyPhone": "+91 98201 0028",
+        "tempAddress": "Demo Transport Colony, Sector 9, Pune",
+        "permanentAddress": "District Pune, Maharashtra, Pin 411028",
+        "licenseNumber": "MH12 20250028",
+        "licenseDate": "2024-12-28",
+        "licenseExpiry": "2039-01-27",
+        "pccDate": "2026-09-29",
+        "pccReceipt": "YES",
+        "medicalDate": "2027-09-29",
+        "schoolDone": "YES",
+        "aadharNumber": "XXXX-XXXX-0028",
+        "ownerName": "Fleet Vendor 4",
+        "ownerPhone": "+91 98202 0028"
+      },
+      "documents": [
+        {
+          "type": "REGISTRATION",
+          "expiry": "2022-08-12"
+        },
+        {
+          "type": "FITNESS",
+          "expiry": "2026-07-12"
+        },
+        {
+          "type": "TAX",
+          "expiry": "2026-12-31"
+        },
+        {
+          "type": "PERMIT",
+          "expiry": "2027-01-21"
+        },
+        {
+          "type": "PUC",
+          "expiry": "2027-10-06"
+        },
+        {
+          "type": "INSURANCE",
+          "expiry": "2026-11-30"
+        }
+      ]
+    }
+  ],
+  "stop_vehicles": [
+    {
+      "registrationNumber": "MH-46-CU-3418",
+      "vehicleType": "Sedan",
+      "make": "Maruti Suzuki",
+      "model": "Swift Dezire",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": true,
+      "status": "STOPPED",
+      "stopReason": "Offboarded cab"
+    },
+    {
+      "registrationNumber": "MH12VF2770",
+      "vehicleType": "Sedan",
+      "make": "MARUTI SUZUKI",
+      "model": "Swift Dezire",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": false,
+      "status": "STOPPED",
+      "stopReason": "Offboarded cab"
+    },
+    {
+      "registrationNumber": "MH-12-VT-3762",
+      "vehicleType": "Sedan",
+      "make": "Maruti Suzuki",
+      "model": "Swift Dezire",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": true,
+      "status": "STOPPED",
+      "stopReason": "Offboarded cab"
+    },
+    {
+      "registrationNumber": "MH-13-DQ-6463",
+      "vehicleType": "Sedan",
+      "make": "Maruti Suzuki",
+      "model": "Swift Dezire",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": false,
+      "status": "STOPPED",
+      "stopReason": "Offboarded cab"
+    },
+    {
+      "registrationNumber": "MH-12-YQ-9685",
+      "vehicleType": "Sedan",
+      "make": "HYUNDAI",
+      "model": "Aura",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": false,
+      "status": "STOPPED",
+      "stopReason": "Offboarded cab"
+    },
+    {
+      "registrationNumber": "MH-14-MH-6802",
+      "vehicleType": "Sedan",
+      "make": "MARUTI SUZUKI",
+      "model": "Aura",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": false,
+      "status": "STOPPED",
+      "stopReason": "Offboarded cab"
+    },
+    {
+      "registrationNumber": "MH-14-LX-2536",
+      "vehicleType": "Sedan",
+      "make": "Maruti Suzuki",
+      "model": "Aura",
+      "capacity": "4+1",
+      "fuelType": "CNG",
+      "gpsInstalled": true,
+      "status": "STOPPED",
+      "stopReason": "Offboarded cab"
+    }
+  ],
+  "employees": [
+    {
+      "name": "SHRAVAN",
+      "department": "Admin",
+      "roleTitle": "Admin / Operations",
+      "shiftTiming": "General",
+      "emergencyContact": "+91 98111 001",
+      "location": "OFFICE",
+      "baseSalary": 10000,
+      "attendance": [
+        {
+          "day": 1,
+          "date": "2026-11-01",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 2,
+          "date": "2026-11-02",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 3,
+          "date": "2026-11-03",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 4,
+          "date": "2026-11-04",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 5,
+          "date": "2026-11-05",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 6,
+          "date": "2026-11-06",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 7,
+          "date": "2026-11-07",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 8,
+          "date": "2026-11-08",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 9,
+          "date": "2026-11-09",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 10,
+          "date": "2026-11-10",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 11,
+          "date": "2026-11-11",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 12,
+          "date": "2026-11-12",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 13,
+          "date": "2026-11-13",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 14,
+          "date": "2026-11-14",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 15,
+          "date": "2026-11-15",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 16,
+          "date": "2026-11-16",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 22,
+          "date": "2026-11-22",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 29,
+          "date": "2026-11-29",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        }
+      ],
+      "payroll": {
+        "month": 11,
+        "year": 2026,
+        "presentDays": 12,
+        "absentDays": 0,
+        "weekOffDays": 6,
+        "lateMarks": 0,
+        "lateDeductionDays": 0,
+        "payableDays": 18,
+        "attendancePercentage": 1,
+        "baseSalary": 10000,
+        "absentDeduction": 0,
+        "lateDeduction": 0,
+        "netSalary": 10000,
+        "status": "APPROVED"
+      }
+    },
+    {
+      "name": "ANSHIKA",
+      "department": "MIS",
+      "roleTitle": "MIS / Tracking / Calling",
+      "shiftTiming": "10:00 - 19:00",
+      "emergencyContact": "+91 98111 002",
+      "location": "OFFICE",
+      "baseSalary": 17000,
+      "attendance": [
+        {
+          "day": 1,
+          "date": "2026-11-01",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 2,
+          "date": "2026-11-02",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "10:00",
+          "checkOut": "7:00"
+        },
+        {
+          "day": 3,
+          "date": "2026-11-03",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "10:24",
+          "checkOut": "7:00"
+        },
+        {
+          "day": 4,
+          "date": "2026-11-04",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "10:00:00",
+          "checkOut": null
+        },
+        {
+          "day": 5,
+          "date": "2026-11-05",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 6,
+          "date": "2026-11-06",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 7,
+          "date": "2026-11-07",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 8,
+          "date": "2026-11-08",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 9,
+          "date": "2026-11-09",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 10,
+          "date": "2026-11-10",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 11,
+          "date": "2026-11-11",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 12,
+          "date": "2026-11-12",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 13,
+          "date": "2026-11-13",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:55:00",
+          "checkOut": null
+        },
+        {
+          "day": 14,
+          "date": "2026-11-14",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:56:00",
+          "checkOut": null
+        },
+        {
+          "day": 15,
+          "date": "2026-11-15",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 16,
+          "date": "2026-11-16",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:58:00",
+          "checkOut": null
+        },
+        {
+          "day": 22,
+          "date": "2026-11-22",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 29,
+          "date": "2026-11-29",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        }
+      ],
+      "payroll": {
+        "month": 11,
+        "year": 2026,
+        "presentDays": 12,
+        "absentDays": 0,
+        "weekOffDays": 6,
+        "lateMarks": 0,
+        "lateDeductionDays": 0,
+        "payableDays": 18,
+        "attendancePercentage": 1,
+        "baseSalary": 17000,
+        "absentDeduction": 0,
+        "lateDeduction": 0,
+        "netSalary": 17000,
+        "status": "APPROVED"
+      }
+    },
+    {
+      "name": "SHIVANI_J",
+      "department": "Accounts",
+      "roleTitle": "Accounts",
+      "shiftTiming": "Flexible (11:00 AM)",
+      "emergencyContact": "+91 98111 003",
+      "location": "OFFICE",
+      "baseSalary": 22000,
+      "attendance": [
+        {
+          "day": 1,
+          "date": "2026-11-01",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 2,
+          "date": "2026-11-02",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "11:00",
+          "checkOut": "6:00"
+        },
+        {
+          "day": 3,
+          "date": "2026-11-03",
+          "status": "ABSENT",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 4,
+          "date": "2026-11-04",
+          "status": "ABSENT",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 5,
+          "date": "2026-11-05",
+          "status": "ABSENT",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 6,
+          "date": "2026-11-06",
+          "status": "ABSENT",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 7,
+          "date": "2026-11-07",
+          "status": "ABSENT",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 8,
+          "date": "2026-11-08",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 9,
+          "date": "2026-11-09",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 10,
+          "date": "2026-11-10",
+          "status": "ABSENT",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 11,
+          "date": "2026-11-11",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 12,
+          "date": "2026-11-12",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 13,
+          "date": "2026-11-13",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 14,
+          "date": "2026-11-14",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 15,
+          "date": "2026-11-15",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 16,
+          "date": "2026-11-16",
+          "status": "ABSENT",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 22,
+          "date": "2026-11-22",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 29,
+          "date": "2026-11-29",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        }
+      ],
+      "payroll": {
+        "month": 11,
+        "year": 2026,
+        "presentDays": 5,
+        "absentDays": 7,
+        "weekOffDays": 6,
+        "lateMarks": 0,
+        "lateDeductionDays": 0,
+        "payableDays": 11,
+        "attendancePercentage": 0.4167,
+        "baseSalary": 22000,
+        "absentDeduction": 4968,
+        "lateDeduction": 0,
+        "netSalary": 17032,
+        "status": "APPROVED"
+      }
+    },
+    {
+      "name": "SHREEJ",
+      "department": "MIS",
+      "roleTitle": "MIS / Billing",
+      "shiftTiming": "Evening Shift",
+      "emergencyContact": "+91 98111 004",
+      "location": "OFFICE",
+      "baseSalary": 15000,
+      "attendance": [
+        {
+          "day": 1,
+          "date": "2026-11-01",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 2,
+          "date": "2026-11-02",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 3,
+          "date": "2026-11-03",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 4,
+          "date": "2026-11-04",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 5,
+          "date": "2026-11-05",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 6,
+          "date": "2026-11-06",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 7,
+          "date": "2026-11-07",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 8,
+          "date": "2026-11-08",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 9,
+          "date": "2026-11-09",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 10,
+          "date": "2026-11-10",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 11,
+          "date": "2026-11-11",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 12,
+          "date": "2026-11-12",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 13,
+          "date": "2026-11-13",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 14,
+          "date": "2026-11-14",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 15,
+          "date": "2026-11-15",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 16,
+          "date": "2026-11-16",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 22,
+          "date": "2026-11-22",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 29,
+          "date": "2026-11-29",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        }
+      ],
+      "payroll": {
+        "month": 11,
+        "year": 2026,
+        "presentDays": 12,
+        "absentDays": 0,
+        "weekOffDays": 6,
+        "lateMarks": 0,
+        "lateDeductionDays": 0,
+        "payableDays": 18,
+        "attendancePercentage": 1,
+        "baseSalary": 15000,
+        "absentDeduction": 0,
+        "lateDeduction": 0,
+        "netSalary": 15000,
+        "status": "APPROVED"
+      }
+    },
+    {
+      "name": "ATHARV",
+      "department": "Operations",
+      "roleTitle": "Operations",
+      "shiftTiming": "Evening Shift",
+      "emergencyContact": "+91 98111 005",
+      "location": "OFFICE",
+      "baseSalary": 18000,
+      "attendance": [
+        {
+          "day": 1,
+          "date": "2026-11-01",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 2,
+          "date": "2026-11-02",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 3,
+          "date": "2026-11-03",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 4,
+          "date": "2026-11-04",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 5,
+          "date": "2026-11-05",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 6,
+          "date": "2026-11-06",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 7,
+          "date": "2026-11-07",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 8,
+          "date": "2026-11-08",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 9,
+          "date": "2026-11-09",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 10,
+          "date": "2026-11-10",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 11,
+          "date": "2026-11-11",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 12,
+          "date": "2026-11-12",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 13,
+          "date": "2026-11-13",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 14,
+          "date": "2026-11-14",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 15,
+          "date": "2026-11-15",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 16,
+          "date": "2026-11-16",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 22,
+          "date": "2026-11-22",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 29,
+          "date": "2026-11-29",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        }
+      ],
+      "payroll": {
+        "month": 11,
+        "year": 2026,
+        "presentDays": 12,
+        "absentDays": 0,
+        "weekOffDays": 6,
+        "lateMarks": 0,
+        "lateDeductionDays": 0,
+        "payableDays": 18,
+        "attendancePercentage": 1,
+        "baseSalary": 18000,
+        "absentDeduction": 0,
+        "lateDeduction": 0,
+        "netSalary": 18000,
+        "status": "APPROVED"
+      }
+    },
+    {
+      "name": "RAJANI_G",
+      "department": "Operations",
+      "roleTitle": "Operations",
+      "shiftTiming": "09:30 - 17:30",
+      "emergencyContact": "+91 98111 006",
+      "location": "OFFICE",
+      "baseSalary": 17000,
+      "attendance": [
+        {
+          "day": 1,
+          "date": "2026-11-01",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 2,
+          "date": "2026-11-02",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "9:46",
+          "checkOut": "6:00"
+        },
+        {
+          "day": 3,
+          "date": "2026-11-03",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "9:23",
+          "checkOut": "6:00"
+        },
+        {
+          "day": 4,
+          "date": "2026-11-04",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:44:00",
+          "checkOut": null
+        },
+        {
+          "day": 5,
+          "date": "2026-11-05",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "9:40",
+          "checkOut": "5:30"
+        },
+        {
+          "day": 6,
+          "date": "2026-11-06",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 7,
+          "date": "2026-11-07",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 8,
+          "date": "2026-11-08",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 9,
+          "date": "2026-11-09",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 10,
+          "date": "2026-11-10",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 11,
+          "date": "2026-11-11",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:37:00",
+          "checkOut": null
+        },
+        {
+          "day": 12,
+          "date": "2026-11-12",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:42:00",
+          "checkOut": null
+        },
+        {
+          "day": 13,
+          "date": "2026-11-13",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "10:00",
+          "checkOut": null
+        },
+        {
+          "day": 14,
+          "date": "2026-11-14",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:38:00",
+          "checkOut": null
+        },
+        {
+          "day": 15,
+          "date": "2026-11-15",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 16,
+          "date": "2026-11-16",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:43:00",
+          "checkOut": null
+        },
+        {
+          "day": 22,
+          "date": "2026-11-22",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 29,
+          "date": "2026-11-29",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        }
+      ],
+      "payroll": {
+        "month": 11,
+        "year": 2026,
+        "presentDays": 12,
+        "absentDays": 0,
+        "weekOffDays": 6,
+        "lateMarks": 0,
+        "lateDeductionDays": 0,
+        "payableDays": 18,
+        "attendancePercentage": 1,
+        "baseSalary": 17000,
+        "absentDeduction": 0,
+        "lateDeduction": 0,
+        "netSalary": 17000,
+        "status": "APPROVED"
+      }
+    },
+    {
+      "name": "RAHUL_P",
+      "department": "Operations",
+      "roleTitle": "Operations",
+      "shiftTiming": "14:00 - 22:00",
+      "emergencyContact": "+91 98111 007",
+      "location": "OFFICE",
+      "baseSalary": 35000,
+      "attendance": [
+        {
+          "day": 1,
+          "date": "2026-11-01",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 2,
+          "date": "2026-11-02",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 3,
+          "date": "2026-11-03",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 4,
+          "date": "2026-11-04",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 5,
+          "date": "2026-11-05",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 6,
+          "date": "2026-11-06",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 7,
+          "date": "2026-11-07",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 8,
+          "date": "2026-11-08",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 9,
+          "date": "2026-11-09",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 10,
+          "date": "2026-11-10",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 11,
+          "date": "2026-11-11",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 12,
+          "date": "2026-11-12",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 13,
+          "date": "2026-11-13",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 14,
+          "date": "2026-11-14",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 15,
+          "date": "2026-11-15",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 16,
+          "date": "2026-11-16",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 22,
+          "date": "2026-11-22",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 29,
+          "date": "2026-11-29",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        }
+      ],
+      "payroll": {
+        "month": 11,
+        "year": 2026,
+        "presentDays": 12,
+        "absentDays": 0,
+        "weekOffDays": 6,
+        "lateMarks": 0,
+        "lateDeductionDays": 0,
+        "payableDays": 18,
+        "attendancePercentage": 1,
+        "baseSalary": 35000,
+        "absentDeduction": 0,
+        "lateDeduction": 0,
+        "netSalary": 35000,
+        "status": "APPROVED"
+      }
+    },
+    {
+      "name": "CHHAYA",
+      "department": "Vendor Hiring & Compliance",
+      "roleTitle": "Vendor Hiring & Compliance",
+      "shiftTiming": "10:00 - 19:00",
+      "emergencyContact": "+91 98111 008",
+      "location": "OFFICE",
+      "baseSalary": 17000,
+      "attendance": [
+        {
+          "day": 1,
+          "date": "2026-11-01",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 2,
+          "date": "2026-11-02",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "10:30",
+          "checkOut": "7:00"
+        },
+        {
+          "day": 3,
+          "date": "2026-11-03",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:58:00",
+          "checkOut": null
+        },
+        {
+          "day": 4,
+          "date": "2026-11-04",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:55:00",
+          "checkOut": null
+        },
+        {
+          "day": 5,
+          "date": "2026-11-05",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:25:00",
+          "checkOut": null
+        },
+        {
+          "day": 6,
+          "date": "2026-11-06",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:45:00",
+          "checkOut": null
+        },
+        {
+          "day": 7,
+          "date": "2026-11-07",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 8,
+          "date": "2026-11-08",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 9,
+          "date": "2026-11-09",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 10,
+          "date": "2026-11-10",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 11,
+          "date": "2026-11-11",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 12,
+          "date": "2026-11-12",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 13,
+          "date": "2026-11-13",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "10",
+          "checkOut": ":00"
+        },
+        {
+          "day": 14,
+          "date": "2026-11-14",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "10:00:00",
+          "checkOut": null
+        },
+        {
+          "day": 15,
+          "date": "2026-11-15",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 16,
+          "date": "2026-11-16",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "10:00:00",
+          "checkOut": null
+        },
+        {
+          "day": 22,
+          "date": "2026-11-22",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 29,
+          "date": "2026-11-29",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        }
+      ],
+      "payroll": {
+        "month": 11,
+        "year": 2026,
+        "presentDays": 12,
+        "absentDays": 0,
+        "weekOffDays": 6,
+        "lateMarks": 0,
+        "lateDeductionDays": 0,
+        "payableDays": 18,
+        "attendancePercentage": 1,
+        "baseSalary": 17000,
+        "absentDeduction": 0,
+        "lateDeduction": 0,
+        "netSalary": 17000,
+        "status": "APPROVED"
+      }
+    },
+    {
+      "name": "SUFIYAN",
+      "department": "Operations",
+      "roleTitle": "Operations",
+      "shiftTiming": "10:00 - 19:00",
+      "emergencyContact": "+91 98111 009",
+      "location": "OFFICE",
+      "baseSalary": 25000,
+      "attendance": [
+        {
+          "day": 1,
+          "date": "2026-11-01",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 2,
+          "date": "2026-11-02",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 3,
+          "date": "2026-11-03",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 4,
+          "date": "2026-11-04",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 5,
+          "date": "2026-11-05",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 6,
+          "date": "2026-11-06",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 7,
+          "date": "2026-11-07",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 8,
+          "date": "2026-11-08",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 9,
+          "date": "2026-11-09",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 10,
+          "date": "2026-11-10",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 11,
+          "date": "2026-11-11",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 12,
+          "date": "2026-11-12",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 13,
+          "date": "2026-11-13",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 14,
+          "date": "2026-11-14",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 15,
+          "date": "2026-11-15",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 16,
+          "date": "2026-11-16",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 22,
+          "date": "2026-11-22",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 29,
+          "date": "2026-11-29",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        }
+      ],
+      "payroll": {
+        "month": 11,
+        "year": 2026,
+        "presentDays": 12,
+        "absentDays": 0,
+        "weekOffDays": 6,
+        "lateMarks": 0,
+        "lateDeductionDays": 0,
+        "payableDays": 18,
+        "attendancePercentage": 1,
+        "baseSalary": 25000,
+        "absentDeduction": 0,
+        "lateDeduction": 0,
+        "netSalary": 25000,
+        "status": "APPROVED"
+      }
+    },
+    {
+      "name": "Avinash _3360",
+      "department": "Driver",
+      "roleTitle": "Driver",
+      "shiftTiming": "Day Shift",
+      "emergencyContact": "+91 98111 010",
+      "location": "OFFICE",
+      "baseSalary": 22000,
+      "attendance": [
+        {
+          "day": 1,
+          "date": "2026-11-01",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 2,
+          "date": "2026-11-02",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "10:00",
+          "checkOut": "1:00"
+        },
+        {
+          "day": 3,
+          "date": "2026-11-03",
+          "status": "PRESENT",
+          "isLate": true,
+          "checkIn": "10:30:00",
+          "checkOut": null
+        },
+        {
+          "day": 4,
+          "date": "2026-11-04",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:00:00",
+          "checkOut": null
+        },
+        {
+          "day": 5,
+          "date": "2026-11-05",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:00:00",
+          "checkOut": null
+        },
+        {
+          "day": 6,
+          "date": "2026-11-06",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:00:00",
+          "checkOut": null
+        },
+        {
+          "day": 7,
+          "date": "2026-11-07",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 8,
+          "date": "2026-11-08",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 9,
+          "date": "2026-11-09",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 10,
+          "date": "2026-11-10",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 11,
+          "date": "2026-11-11",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 12,
+          "date": "2026-11-12",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 13,
+          "date": "2026-11-13",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 14,
+          "date": "2026-11-14",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 15,
+          "date": "2026-11-15",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 16,
+          "date": "2026-11-16",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 22,
+          "date": "2026-11-22",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 29,
+          "date": "2026-11-29",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        }
+      ],
+      "payroll": {
+        "month": 11,
+        "year": 2026,
+        "presentDays": 12,
+        "absentDays": 0,
+        "weekOffDays": 6,
+        "lateMarks": 1,
+        "lateDeductionDays": 0,
+        "payableDays": 18,
+        "attendancePercentage": 1,
+        "baseSalary": 22000,
+        "absentDeduction": 0,
+        "lateDeduction": 0,
+        "netSalary": 22000,
+        "status": "APPROVED"
+      }
+    },
+    {
+      "name": "GANESH KUMBHAR_7822",
+      "department": "Driver",
+      "roleTitle": "Driver",
+      "shiftTiming": "Day Shift",
+      "emergencyContact": "+91 98111 011",
+      "location": "OFFICE",
+      "baseSalary": 25000,
+      "attendance": [
+        {
+          "day": 1,
+          "date": "2026-11-01",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 2,
+          "date": "2026-11-02",
+          "status": "PRESENT",
+          "isLate": true,
+          "checkIn": "11:00",
+          "checkOut": "3:28"
+        },
+        {
+          "day": 3,
+          "date": "2026-11-03",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "01:00:00",
+          "checkOut": null
+        },
+        {
+          "day": 4,
+          "date": "2026-11-04",
+          "status": "PRESENT",
+          "isLate": true,
+          "checkIn": "12:20:00",
+          "checkOut": null
+        },
+        {
+          "day": 5,
+          "date": "2026-11-05",
+          "status": "PRESENT",
+          "isLate": true,
+          "checkIn": "12:15:00",
+          "checkOut": null
+        },
+        {
+          "day": 6,
+          "date": "2026-11-06",
+          "status": "PRESENT",
+          "isLate": true,
+          "checkIn": "14:55:00",
+          "checkOut": null
+        },
+        {
+          "day": 7,
+          "date": "2026-11-07",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 8,
+          "date": "2026-11-08",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 9,
+          "date": "2026-11-09",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 10,
+          "date": "2026-11-10",
+          "status": "PRESENT",
+          "isLate": true,
+          "checkIn": "11:30:00",
+          "checkOut": null
+        },
+        {
+          "day": 11,
+          "date": "2026-11-11",
+          "status": "PRESENT",
+          "isLate": true,
+          "checkIn": "11:29:00",
+          "checkOut": null
+        },
+        {
+          "day": 12,
+          "date": "2026-11-12",
+          "status": "PRESENT",
+          "isLate": true,
+          "checkIn": "11:30:00",
+          "checkOut": null
+        },
+        {
+          "day": 13,
+          "date": "2026-11-13",
+          "status": "PRESENT",
+          "isLate": true,
+          "checkIn": "11:10:00",
+          "checkOut": null
+        },
+        {
+          "day": 14,
+          "date": "2026-11-14",
+          "status": "PRESENT",
+          "isLate": true,
+          "checkIn": "10:15:00",
+          "checkOut": null
+        },
+        {
+          "day": 15,
+          "date": "2026-11-15",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 16,
+          "date": "2026-11-16",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "12:00:00",
+          "checkOut": null
+        },
+        {
+          "day": 22,
+          "date": "2026-11-22",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 29,
+          "date": "2026-11-29",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        }
+      ],
+      "payroll": {
+        "month": 11,
+        "year": 2026,
+        "presentDays": 12,
+        "absentDays": 0,
+        "weekOffDays": 6,
+        "lateMarks": 9,
+        "lateDeductionDays": 4,
+        "payableDays": 14,
+        "attendancePercentage": 1,
+        "baseSalary": 25000,
+        "absentDeduction": 0,
+        "lateDeduction": 3226,
+        "netSalary": 21774,
+        "status": "APPROVED"
+      }
+    },
+    {
+      "name": "PRAKASH",
+      "department": "DRIVER",
+      "roleTitle": "DRIVER",
+      "shiftTiming": "Day Shift",
+      "emergencyContact": "+91 98111 012",
+      "location": "OFFICE",
+      "baseSalary": 30000,
+      "attendance": [
+        {
+          "day": 1,
+          "date": "2026-11-01",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 2,
+          "date": "2026-11-02",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 3,
+          "date": "2026-11-03",
+          "status": "ABSENT",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 4,
+          "date": "2026-11-04",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 5,
+          "date": "2026-11-05",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 6,
+          "date": "2026-11-06",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 7,
+          "date": "2026-11-07",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 8,
+          "date": "2026-11-08",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 9,
+          "date": "2026-11-09",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 10,
+          "date": "2026-11-10",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 11,
+          "date": "2026-11-11",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 12,
+          "date": "2026-11-12",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 13,
+          "date": "2026-11-13",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 14,
+          "date": "2026-11-14",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 15,
+          "date": "2026-11-15",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 16,
+          "date": "2026-11-16",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 22,
+          "date": "2026-11-22",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 29,
+          "date": "2026-11-29",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        }
+      ],
+      "payroll": {
+        "month": 11,
+        "year": 2026,
+        "presentDays": 11,
+        "absentDays": 1,
+        "weekOffDays": 6,
+        "lateMarks": 0,
+        "lateDeductionDays": 0,
+        "payableDays": 17,
+        "attendancePercentage": 0.9167,
+        "baseSalary": 30000,
+        "absentDeduction": 968,
+        "lateDeduction": 0,
+        "netSalary": 29032,
+        "status": "APPROVED"
+      }
+    },
+    {
+      "name": "HK_KRANTI",
+      "department": "Office Cleaning",
+      "roleTitle": "Office Cleaning",
+      "shiftTiming": "Day Shift",
+      "emergencyContact": "+91 98111 013",
+      "location": "OFFICE",
+      "baseSalary": 10000,
+      "attendance": [
+        {
+          "day": 1,
+          "date": "2026-11-01",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 2,
+          "date": "2026-11-02",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 3,
+          "date": "2026-11-03",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 4,
+          "date": "2026-11-04",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 5,
+          "date": "2026-11-05",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 6,
+          "date": "2026-11-06",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 7,
+          "date": "2026-11-07",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 8,
+          "date": "2026-11-08",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 9,
+          "date": "2026-11-09",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 10,
+          "date": "2026-11-10",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 11,
+          "date": "2026-11-11",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 12,
+          "date": "2026-11-12",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 13,
+          "date": "2026-11-13",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 14,
+          "date": "2026-11-14",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 15,
+          "date": "2026-11-15",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 16,
+          "date": "2026-11-16",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 22,
+          "date": "2026-11-22",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 29,
+          "date": "2026-11-29",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        }
+      ],
+      "payroll": {
+        "month": 11,
+        "year": 2026,
+        "presentDays": 12,
+        "absentDays": 0,
+        "weekOffDays": 6,
+        "lateMarks": 0,
+        "lateDeductionDays": 0,
+        "payableDays": 18,
+        "attendancePercentage": 1,
+        "baseSalary": 10000,
+        "absentDeduction": 0,
+        "lateDeduction": 0,
+        "netSalary": 10000,
+        "status": "APPROVED"
+      }
+    },
+    {
+      "name": "REQ",
+      "department": "Backup Driver",
+      "roleTitle": "Backup Driver",
+      "shiftTiming": "On Call",
+      "emergencyContact": "+91 98111 014",
+      "location": "OFFICE",
+      "baseSalary": 15000,
+      "attendance": [
+        {
+          "day": 1,
+          "date": "2026-11-01",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 8,
+          "date": "2026-11-08",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 15,
+          "date": "2026-11-15",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 22,
+          "date": "2026-11-22",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 29,
+          "date": "2026-11-29",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        }
+      ],
+      "payroll": {
+        "month": 11,
+        "year": 2026,
+        "presentDays": 0,
+        "absentDays": 0,
+        "weekOffDays": 5,
+        "lateMarks": 0,
+        "lateDeductionDays": 0,
+        "payableDays": 5,
+        "attendancePercentage": 0,
+        "baseSalary": 15000,
+        "absentDeduction": 0,
+        "lateDeduction": 0,
+        "netSalary": 15000,
+        "status": "APPROVED"
+      }
+    },
+    {
+      "name": "SANTOSH MAHAJAN",
+      "department": "Driver",
+      "roleTitle": "Driver",
+      "shiftTiming": "Day Shift",
+      "emergencyContact": "+91 98111 015",
+      "location": "OFFICE",
+      "baseSalary": 0,
+      "attendance": [
+        {
+          "day": 1,
+          "date": "2026-11-01",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 8,
+          "date": "2026-11-08",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 11,
+          "date": "2026-11-11",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 12,
+          "date": "2026-11-12",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 13,
+          "date": "2026-11-13",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 14,
+          "date": "2026-11-14",
+          "status": "PRESENT",
+          "isLate": false,
+          "checkIn": "09:30",
+          "checkOut": "18:30"
+        },
+        {
+          "day": 15,
+          "date": "2026-11-15",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 22,
+          "date": "2026-11-22",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        },
+        {
+          "day": 29,
+          "date": "2026-11-29",
+          "status": "WEEK_OFF",
+          "isLate": false,
+          "checkIn": null,
+          "checkOut": null
+        }
+      ],
+      "payroll": {
+        "month": 11,
+        "year": 2026,
+        "presentDays": 0,
+        "absentDays": 0,
+        "weekOffDays": 0,
+        "lateMarks": 0,
+        "lateDeductionDays": 0,
+        "payableDays": 0,
+        "attendancePercentage": 0,
+        "baseSalary": 0,
+        "absentDeduction": 0,
+        "lateDeduction": 0,
+        "netSalary": 0,
+        "status": "DRAFT"
+      }
+    }
+  ],
+  "expenses": [
+    {
+      "expenseDate": "2026-11-02",
+      "amount": 900,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 2",
+      "vehicleRef": "8329",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-02",
+      "amount": 1000,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "ANSHIKA PENDING SALARY",
+      "beneficiary": "Operations Vendor 3",
+      "vehicleRef": "ANSHIKA PENDING SALARY",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-02",
+      "amount": 15067,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "ANSHIKA SALARY",
+      "beneficiary": "Operations Vendor 4",
+      "vehicleRef": "ANSHIKA SALARY",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-02",
+      "amount": 140,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "OFFICE",
+      "beneficiary": "Operations Vendor 5",
+      "vehicleRef": "OFFICE",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-02",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 6",
+      "vehicleRef": "5035",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-02",
+      "amount": 70,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "PIYUSH SALES",
+      "beneficiary": "Operations Vendor 2",
+      "vehicleRef": "PIYUSH MART  SHRAVAN",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-02",
+      "amount": 10000,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "PRAKASH DRIVER SALARY",
+      "beneficiary": "Operations Vendor 3",
+      "vehicleRef": "PRAKASH DRIVER SALARY",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-02",
+      "amount": 971,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "CNG NEW VEHICAL AVINASH",
+      "beneficiary": "Operations Vendor 4",
+      "vehicleRef": "6146",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-02",
+      "amount": 10,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "OFFICE EXP",
+      "beneficiary": "Operations Vendor 5",
+      "vehicleRef": "OFFICE EXP",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-02",
+      "amount": 739,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "739 GANESH CNG",
+      "beneficiary": "Operations Vendor 1",
+      "vehicleRef": "739 GANESH CNG",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-02",
+      "amount": 1000,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "PRATIK VENDER PAYMENT",
+      "beneficiary": "Operations Vendor 2",
+      "vehicleRef": "PRATIK VENDER PAYMENT",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-02",
+      "amount": 476,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 1",
+      "vehicleRef": "3360",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-02",
+      "amount": 200,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "FASTAG GANESH",
+      "beneficiary": "Operations Vendor 4",
+      "vehicleRef": "5196",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-02",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 3",
+      "vehicleRef": "894",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-03",
+      "amount": 500,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 4",
+      "vehicleRef": "6143",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-03",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 5",
+      "vehicleRef": "9828",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-03",
+      "amount": 396,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 6",
+      "vehicleRef": "3360",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-03",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 1",
+      "vehicleRef": "1298",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-03",
+      "amount": 900,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 2",
+      "vehicleRef": "8329",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-03",
+      "amount": 1500,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG OUTSTANDING CLEAR",
+      "beneficiary": "Operations Vendor 1",
+      "vehicleRef": "NILESH DHORE",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-03",
+      "amount": 722,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 4",
+      "vehicleRef": "5196",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-03",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 5",
+      "vehicleRef": "5035",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-03",
+      "amount": 10000,
+      "paymentMode": "GPAY",
+      "paidBy": "SHASHI SIR",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 6",
+      "vehicleRef": "CNG",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-03",
+      "amount": 499,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 1",
+      "vehicleRef": "3360",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-03",
+      "amount": 8786,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "3726 21 JULLY TO 20 AUG IMERIT PAYMENT",
+      "beneficiary": "Operations Vendor 1",
+      "vehicleRef": "3726",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-03",
+      "amount": 450,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 3",
+      "vehicleRef": "3360",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-03",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 4",
+      "vehicleRef": "894",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-03",
+      "amount": 1200,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "TAX",
+      "beneficiary": "Operations Vendor 4",
+      "vehicleRef": "9431",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-04",
+      "amount": 400,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 6",
+      "vehicleRef": "1298",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-04",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "PETROL",
+      "beneficiary": "Operations Vendor 1",
+      "vehicleRef": "3360",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-04",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 2",
+      "vehicleRef": "1298",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-04",
+      "amount": 605,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 3",
+      "vehicleRef": "5196",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-04",
+      "amount": 300,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "5196 FASTAG",
+      "beneficiary": "Operations Vendor 4",
+      "vehicleRef": "5196",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-04",
+      "amount": 942,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 5",
+      "vehicleRef": "9015",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-04",
+      "amount": 1000,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "HK SALARY",
+      "beneficiary": "Operations Vendor 1",
+      "vehicleRef": "HK SALARY",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-04",
+      "amount": 10000,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "IDFC ACCOUNT OPENING",
+      "beneficiary": "Operations Vendor 2",
+      "vehicleRef": "IDFC ACCOUNT OPENING",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-04",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 2",
+      "vehicleRef": "9828",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-04",
+      "amount": 50,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "D MART PARKING",
+      "beneficiary": "Operations Vendor 4",
+      "vehicleRef": "D MART PARKING",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-04",
+      "amount": 807,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 4",
+      "vehicleRef": "3360",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-04",
+      "amount": 831,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 5",
+      "vehicleRef": "9051",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-04",
+      "amount": 300,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "PUNCTURE",
+      "beneficiary": "Operations Vendor 2",
+      "vehicleRef": "9051",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-04",
+      "amount": 200,
+      "paymentMode": "OTHER",
+      "paidBy": "CHHAYA",
+      "category": "MEDICAL",
+      "beneficiary": "Operations Vendor 3",
+      "vehicleRef": "MEDICAL",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-04",
+      "amount": 680,
+      "paymentMode": "OTHER",
+      "paidBy": "CHHAYA",
+      "category": "OTHER",
+      "beneficiary": "Operations Vendor 4",
+      "vehicleRef": "Shashi Sir",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-04",
+      "amount": 512,
+      "paymentMode": "OTHER",
+      "paidBy": "CHHAYA",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 3",
+      "vehicleRef": "5196",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-04",
+      "amount": 301,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 4",
+      "vehicleRef": "3360",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-04",
+      "amount": 110,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "TOLL",
+      "beneficiary": "Operations Vendor 2",
+      "vehicleRef": "3360",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-04",
+      "amount": 1100,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 6",
+      "vehicleRef": "6146",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-04",
+      "amount": 800,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 1",
+      "vehicleRef": "9431",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-04",
+      "amount": 110,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "TOLL",
+      "beneficiary": "Operations Vendor 5",
+      "vehicleRef": "3360",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-05",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 3",
+      "vehicleRef": "894",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-05",
+      "amount": 800,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "ONCALL IMERATE",
+      "beneficiary": "Operations Vendor 2",
+      "vehicleRef": "6007",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-05",
+      "amount": 400,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "ONCALL IMERATE",
+      "beneficiary": "Operations Vendor 3",
+      "vehicleRef": "6378",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-05",
+      "amount": 500,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "OFFICE HAR BILL",
+      "beneficiary": "Operations Vendor 4",
+      "vehicleRef": "OFFICE HAR BILL",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-05",
+      "amount": 439,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 1",
+      "vehicleRef": "9051",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-05",
+      "amount": 20,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "PUNCTURE",
+      "beneficiary": "Operations Vendor 1",
+      "vehicleRef": "9051",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-05",
+      "amount": 567,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 3",
+      "vehicleRef": "3360",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-05",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 4",
+      "vehicleRef": "1298",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-05",
+      "amount": 200,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "FAST TAG",
+      "beneficiary": "Operations Vendor 4",
+      "vehicleRef": "9051",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-05",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 6",
+      "vehicleRef": "5035",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-05",
+      "amount": 150,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "PUC",
+      "beneficiary": "Operations Vendor 1",
+      "vehicleRef": "PUC",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-05",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "SWIGGY",
+      "beneficiary": "Operations Vendor 2",
+      "vehicleRef": "SWIGGY",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-05",
+      "amount": 40,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "WATER BOTTLE",
+      "beneficiary": "Operations Vendor 3",
+      "vehicleRef": "WATER BOTTLE",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-05",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 4",
+      "vehicleRef": "9828",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-05",
+      "amount": 504,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 5",
+      "vehicleRef": "5196",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-05",
+      "amount": 421,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 6",
+      "vehicleRef": "3360",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-05",
+      "amount": 18000,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "SALARY",
+      "beneficiary": "Operations Vendor 2",
+      "vehicleRef": "SALARY",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-05",
+      "amount": 25000,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "SALARY",
+      "beneficiary": "Operations Vendor 3",
+      "vehicleRef": "SALARY",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-05",
+      "amount": 20190,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "SALARY",
+      "beneficiary": "Operations Vendor 4",
+      "vehicleRef": "SALARY",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-05",
+      "amount": 400,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "FASTAG",
+      "beneficiary": "Operations Vendor 5",
+      "vehicleRef": "9051",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-05",
+      "amount": 623,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 5",
+      "vehicleRef": "9051",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-05",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 6",
+      "vehicleRef": "894",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-06",
+      "amount": 496,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 1",
+      "vehicleRef": "5196",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-06",
+      "amount": 800,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 2",
+      "vehicleRef": "8329",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-06",
+      "amount": 388,
+      "paymentMode": "GPAY",
+      "paidBy": "CHHAYA",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 3",
+      "vehicleRef": "3360",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-06",
+      "amount": 7000,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "1615 PAYOUT",
+      "beneficiary": "Operations Vendor 1",
+      "vehicleRef": "1615",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-06",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 5",
+      "vehicleRef": "1298",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-06",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 6",
+      "vehicleRef": "9828",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-06",
+      "amount": 50000,
+      "paymentMode": "BANK TRANSFER",
+      "paidBy": "SHASHI SIR",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 1",
+      "vehicleRef": "",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-06",
+      "amount": 5000,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "OTHER",
+      "beneficiary": "Operations Vendor 5",
+      "vehicleRef": "",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-06",
+      "amount": 12000,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "SALARY",
+      "beneficiary": "Operations Vendor 1",
+      "vehicleRef": "SALARY",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-06",
+      "amount": 13730,
+      "paymentMode": "PHONEPAY",
+      "paidBy": "SHREEJ",
+      "category": "SALARY",
+      "beneficiary": "Operations Vendor 2",
+      "vehicleRef": "SALARY",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-06",
+      "amount": 2000,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "SALARY",
+      "beneficiary": "Operations Vendor 3",
+      "vehicleRef": "SALARY",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-07",
+      "amount": 800,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "OLA  REAMBESMENT",
+      "beneficiary": "Operations Vendor 4",
+      "vehicleRef": "6007",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-07",
+      "amount": 900,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "OLA  REAMBESMENT",
+      "beneficiary": "Operations Vendor 5",
+      "vehicleRef": "4681",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-07",
+      "amount": 1000,
+      "paymentMode": "GPAY",
+      "paidBy": "SHASHI SIR",
+      "category": "ADVANCE PAYMENT",
+      "beneficiary": "Operations Vendor 1",
+      "vehicleRef": "Santosh Mahajan",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-07",
+      "amount": 643,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 3",
+      "vehicleRef": "9051",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-10",
+      "amount": 698,
+      "paymentMode": "GPAY",
+      "paidBy": "SHASHI SIR",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 4",
+      "vehicleRef": "6246",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-10",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 5",
+      "vehicleRef": "9828",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-10",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 6",
+      "vehicleRef": "5035",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-10",
+      "amount": 621,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 1",
+      "vehicleRef": "5196",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-10",
+      "amount": 405,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 2",
+      "vehicleRef": "3360",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-11",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 3",
+      "vehicleRef": "1298",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-11",
+      "amount": 488,
+      "paymentMode": "GPAY",
+      "paidBy": "Shashi Waghole",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 4",
+      "vehicleRef": "3360",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-11",
+      "amount": 500,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 5",
+      "vehicleRef": "2742",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-11",
+      "amount": 438,
+      "paymentMode": "GPAY",
+      "paidBy": "Shashi Waghole",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 6",
+      "vehicleRef": "5196",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-11",
+      "amount": 400,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "9015 Washing",
+      "beneficiary": "Operations Vendor 2",
+      "vehicleRef": "9015",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-11",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 2",
+      "vehicleRef": "6378",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-11",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 3",
+      "vehicleRef": "9828",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-11",
+      "amount": 932,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 4",
+      "vehicleRef": "9015",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-11",
+      "amount": 200,
+      "paymentMode": "GPAY",
+      "paidBy": "SHASHI SIR",
+      "category": "FASTAG",
+      "beneficiary": "Operations Vendor 1",
+      "vehicleRef": "3360",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-11",
+      "amount": 300,
+      "paymentMode": "GPAY",
+      "paidBy": "SHASHI SIR",
+      "category": "FASTAG",
+      "beneficiary": "Operations Vendor 2",
+      "vehicleRef": "3360",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-11",
+      "amount": 496,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 1",
+      "vehicleRef": "3360",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-11",
+      "amount": 300,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "ADVANCE PAYMENT",
+      "beneficiary": "Operations Vendor 4",
+      "vehicleRef": "ADVANCE",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-12",
+      "amount": 1000,
+      "paymentMode": "GPAY",
+      "paidBy": "SHASHI SIR",
+      "category": "ADVANCE",
+      "beneficiary": "Operations Vendor 5",
+      "vehicleRef": "9015",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-12",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "SHASHI SIR",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 4",
+      "vehicleRef": "5035",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-12",
+      "amount": 500,
+      "paymentMode": "GPAY",
+      "paidBy": "SHASHI SIR",
+      "category": "ADVANCE PAYMENT",
+      "beneficiary": "Operations Vendor 2",
+      "vehicleRef": "6145",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-12",
+      "amount": 1000,
+      "paymentMode": "GPAY",
+      "paidBy": "SHASHI SIR",
+      "category": "ADVANCE",
+      "beneficiary": "Operations Vendor 3",
+      "vehicleRef": "9015",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-12",
+      "amount": 850,
+      "paymentMode": "GPAY",
+      "paidBy": "SHASHI SIR",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 1",
+      "vehicleRef": "6146",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-12",
+      "amount": 1005,
+      "paymentMode": "GPAY",
+      "paidBy": "RAHUL SIR",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 2",
+      "vehicleRef": "6146",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-12",
+      "amount": 635,
+      "paymentMode": "GPAY",
+      "paidBy": "SHASHI SIR",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 3",
+      "vehicleRef": "5196",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-12",
+      "amount": 200,
+      "paymentMode": "GPAY",
+      "paidBy": "SHASHI SIR",
+      "category": "FASTAG",
+      "beneficiary": "Operations Vendor 2",
+      "vehicleRef": "3360",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-12",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 5",
+      "vehicleRef": "9828",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-12",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 6",
+      "vehicleRef": "9431",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-13",
+      "amount": 783,
+      "paymentMode": "GPAY",
+      "paidBy": "SHASHI SIR",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 1",
+      "vehicleRef": "3360",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-13",
+      "amount": 394,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 2",
+      "vehicleRef": "5196",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-13",
+      "amount": 910,
+      "paymentMode": "GPAY",
+      "paidBy": "ATHARV",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 3",
+      "vehicleRef": "9015",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-13",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "ATHARV",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 4",
+      "vehicleRef": "5035",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-13",
+      "amount": 300,
+      "paymentMode": "GPAY",
+      "paidBy": "ATHARV",
+      "category": "ADVANCE SALARY",
+      "beneficiary": "Operations Vendor 4",
+      "vehicleRef": "RAHUL PAWAR",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-13",
+      "amount": 692,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 6",
+      "vehicleRef": "3360",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-14",
+      "amount": 600,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 1",
+      "vehicleRef": "9828",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-14",
+      "amount": 506,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 2",
+      "vehicleRef": "2742",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-14",
+      "amount": 67.5,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "9015 TOLL",
+      "beneficiary": "Operations Vendor 3",
+      "vehicleRef": "9015",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-14",
+      "amount": 949,
+      "paymentMode": "GPAY",
+      "paidBy": "RAJANI  GAIKWAD",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 4",
+      "vehicleRef": "6143",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-14",
+      "amount": 2000,
+      "paymentMode": "GPAY",
+      "paidBy": "RAJANI  GAIKWAD",
+      "category": "PERSONAL",
+      "beneficiary": "Operations Vendor 5",
+      "vehicleRef": "SHASHI SIR",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-14",
+      "amount": 673,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 6",
+      "vehicleRef": "3360",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-16",
+      "amount": 587,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 1",
+      "vehicleRef": "9051",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-16",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 2",
+      "vehicleRef": "8329",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-16",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 3",
+      "vehicleRef": "5035",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-16",
+      "amount": 700,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 4",
+      "vehicleRef": "9828",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-16",
+      "amount": 1000,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 5",
+      "vehicleRef": "SHASHI SIR",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    },
+    {
+      "expenseDate": "2026-11-16",
+      "amount": 560,
+      "paymentMode": "GPAY",
+      "paidBy": "SHREEJ",
+      "category": "CNG",
+      "beneficiary": "Pune CNG Station 6",
+      "vehicleRef": "5196",
+      "approvalStatus": "DONE",
+      "recoveryStatus": "UNRECOVER"
+    }
+  ],
+  "invoices": [
+    {
+      "clientName": "ORIX_INVOICE NO_42",
+      "invoiceNumber": "INV-2026-1005",
+      "period": "TRACELINK_OCT_2026",
+      "amount": 1700000,
+      "status": "PAID"
+    },
+    {
+      "clientName": "ORIX_INVOICE NO_41",
+      "invoiceNumber": "INV-2026-1006",
+      "period": "IMIRIT_21 AUG _20_OCT_2026",
+      "amount": 250000,
+      "status": "SENT"
+    },
+    {
+      "clientName": "GTT",
+      "invoiceNumber": "INV-2026-1007",
+      "period": "METLIFE",
+      "amount": 150000,
+      "status": "PAID"
+    },
+    {
+      "clientName": "PPL",
+      "invoiceNumber": "INV-2026-1008",
+      "period": "WIPRO",
+      "amount": 150000,
+      "status": "SENT"
+    },
+    {
+      "clientName": "TRAVELWORLD",
+      "invoiceNumber": "INV-2026-1009",
+      "period": "VODAFONE",
+      "amount": 150000,
+      "status": "PAID"
+    }
+  ],
+  "clients": [
+    {
+      "name": "WIPRO",
+      "code": "WIPRO",
+      "officeContact": "Transport Desk: +91 98000 001",
+      "misContact": "MIS Desk: mis@client1.demo",
+      "billingContact": "Billing Team: billing@client1.demo"
+    },
+    {
+      "name": "ORIX",
+      "code": "ORIX",
+      "officeContact": "Transport Desk: +91 98000 002",
+      "misContact": "MIS Desk: mis@client2.demo",
+      "billingContact": "Billing Team: billing@client2.demo"
+    },
+    {
+      "name": "TRACELINK",
+      "code": "TRACELINK",
+      "officeContact": "Transport Desk: +91 98000 003",
+      "misContact": "MIS Desk: mis@client3.demo",
+      "billingContact": "Billing Team: billing@client3.demo"
+    },
+    {
+      "name": "IMERIT",
+      "code": "IMERIT",
+      "officeContact": "Transport Desk: +91 98000 004",
+      "misContact": "MIS Desk: mis@client4.demo",
+      "billingContact": "Billing Team: billing@client4.demo"
+    },
+    {
+      "name": "MERCEDES-BENZ",
+      "code": "MBENZ",
+      "officeContact": "Transport Desk: +91 98000 005",
+      "misContact": "MIS Desk: mis@client5.demo",
+      "billingContact": "Billing Team: billing@client5.demo"
+    },
+    {
+      "name": "ZENIA / AVELOCK",
+      "code": "ZENIA",
+      "officeContact": "Transport Desk: +91 98000 006",
+      "misContact": "MIS Desk: mis@client6.demo",
+      "billingContact": "Billing Team: billing@client6.demo"
+    },
+    {
+      "name": "STRAT STREET (ECO)",
+      "code": "STRAT",
+      "officeContact": "Transport Desk: +91 98000 007",
+      "misContact": "MIS Desk: mis@client7.demo",
+      "billingContact": "Billing Team: billing@client7.demo"
+    },
+    {
+      "name": "BALAJI COLLEGE",
+      "code": "BALAJI",
+      "officeContact": "Transport Desk: +91 98000 008",
+      "misContact": "MIS Desk: mis@client8.demo",
+      "billingContact": "Billing Team: billing@client8.demo"
+    },
+    {
+      "name": "AMAZON",
+      "code": "AMAZON",
+      "officeContact": "Transport Desk: +91 98000 009",
+      "misContact": "MIS Desk: mis@client9.demo",
+      "billingContact": "Billing Team: billing@client9.demo"
+    },
+    {
+      "name": "VODAFONE",
+      "code": "VODAFONE",
+      "officeContact": "Transport Desk: +91 98000 010",
+      "misContact": "MIS Desk: mis@client10.demo",
+      "billingContact": "Billing Team: billing@client10.demo"
+    },
+    {
+      "name": "WTI",
+      "code": "WTI",
+      "officeContact": "Transport Desk: +91 98000 011",
+      "misContact": "MIS Desk: mis@client11.demo",
+      "billingContact": "Billing Team: billing@client11.demo"
+    },
+    {
+      "name": "TCS",
+      "code": "TCS",
+      "officeContact": "Transport Desk: +91 98000 012",
+      "misContact": "MIS Desk: mis@client12.demo",
+      "billingContact": "Billing Team: billing@client12.demo"
+    }
+  ],
+  "rate_cards": [
+    {
+      "vehicleType": "Sedan",
+      "isAc": false,
+      "minDist": 0,
+      "maxDist": 10,
+      "rate": 330
+    },
+    {
+      "vehicleType": "Sedan",
+      "isAc": true,
+      "minDist": 0,
+      "maxDist": 10,
+      "rate": 343
+    },
+    {
+      "vehicleType": "SUV",
+      "isAc": false,
+      "minDist": 0,
+      "maxDist": 10,
+      "rate": 370
+    },
+    {
+      "vehicleType": "SUV",
+      "isAc": true,
+      "minDist": 0,
+      "maxDist": 10,
+      "rate": 400
+    },
+    {
+      "vehicleType": "TT 17 Seater",
+      "isAc": false,
+      "minDist": 0,
+      "maxDist": 10,
+      "rate": 900
+    },
+    {
+      "vehicleType": "TT 17 Seater",
+      "isAc": true,
+      "minDist": 0,
+      "maxDist": 10,
+      "rate": 1200
+    },
+    {
+      "vehicleType": "Sedan",
+      "isAc": false,
+      "minDist": 10.1,
+      "maxDist": 20,
+      "rate": 470
+    },
+    {
+      "vehicleType": "Sedan",
+      "isAc": true,
+      "minDist": 10.1,
+      "maxDist": 20,
+      "rate": 495
+    },
+    {
+      "vehicleType": "SUV",
+      "isAc": false,
+      "minDist": 10.1,
+      "maxDist": 20,
+      "rate": 510
+    },
+    {
+      "vehicleType": "SUV",
+      "isAc": true,
+      "minDist": 10.1,
+      "maxDist": 20,
+      "rate": 540
+    },
+    {
+      "vehicleType": "TT 17 Seater",
+      "isAc": false,
+      "minDist": 10.1,
+      "maxDist": 20,
+      "rate": 1000
+    },
+    {
+      "vehicleType": "TT 17 Seater",
+      "isAc": true,
+      "minDist": 10.1,
+      "maxDist": 20,
+      "rate": 1300
+    },
+    {
+      "vehicleType": "Sedan",
+      "isAc": false,
+      "minDist": 20.1,
+      "maxDist": 30,
+      "rate": 570
+    },
+    {
+      "vehicleType": "Sedan",
+      "isAc": true,
+      "minDist": 20.1,
+      "maxDist": 30,
+      "rate": 595
+    },
+    {
+      "vehicleType": "SUV",
+      "isAc": false,
+      "minDist": 20.1,
+      "maxDist": 30,
+      "rate": 615
+    },
+    {
+      "vehicleType": "SUV",
+      "isAc": true,
+      "minDist": 20.1,
+      "maxDist": 30,
+      "rate": 646
+    },
+    {
+      "vehicleType": "TT 17 Seater",
+      "isAc": false,
+      "minDist": 20.1,
+      "maxDist": 30,
+      "rate": 1100
+    },
+    {
+      "vehicleType": "TT 17 Seater",
+      "isAc": true,
+      "minDist": 20.1,
+      "maxDist": 30,
+      "rate": 1400
+    },
+    {
+      "vehicleType": "Sedan",
+      "isAc": false,
+      "minDist": 30.1,
+      "maxDist": 40,
+      "rate": 690
+    },
+    {
+      "vehicleType": "Sedan",
+      "isAc": true,
+      "minDist": 30.1,
+      "maxDist": 40,
+      "rate": 715
+    },
+    {
+      "vehicleType": "SUV",
+      "isAc": false,
+      "minDist": 30.1,
+      "maxDist": 40,
+      "rate": 725
+    },
+    {
+      "vehicleType": "SUV",
+      "isAc": true,
+      "minDist": 30.1,
+      "maxDist": 40,
+      "rate": 755
+    },
+    {
+      "vehicleType": "TT 17 Seater",
+      "isAc": false,
+      "minDist": 30.1,
+      "maxDist": 40,
+      "rate": 1200
+    },
+    {
+      "vehicleType": "TT 17 Seater",
+      "isAc": true,
+      "minDist": 30.1,
+      "maxDist": 40,
+      "rate": 1500
+    },
+    {
+      "vehicleType": "Sedan",
+      "isAc": true,
+      "minDist": 40.1,
+      "maxDist": 100,
+      "rate": 815
+    },
+    {
+      "vehicleType": "SUV",
+      "isAc": true,
+      "minDist": 40.1,
+      "maxDist": 100,
+      "rate": 845
+    },
+    {
+      "vehicleType": "TT 17 Seater",
+      "isAc": true,
+      "minDist": 40.1,
+      "maxDist": 100,
+      "rate": 1600
+    }
+  ],
+  "tasks": [
+    {
+      "department": "Billing & MIS",
+      "assigneeName": "SHREEJ",
+      "description": "SHREEJ CLOSED OCT MIS AND FUEL EXP",
+      "priority": "HIGH",
+      "status": "NOT_STARTED"
+    },
+    {
+      "department": "Administration",
+      "assigneeName": "SHRAVAN",
+      "description": "OFFICE VEH CONTROL AND MONITERNING SHEDUEL 24/7",
+      "priority": "HIGH",
+      "status": "NOT_STARTED"
+    },
+    {
+      "department": "Fleet & Induction",
+      "assigneeName": "CHHAYA",
+      "description": "CLOSED ALL OCT  EXPAINSEC & UPDATE NEW VEH INDUCTION , OFFICE VEH AGREEMENT",
+      "priority": "HIGH",
+      "status": "PROCESSING"
+    },
+    {
+      "department": "Operations",
+      "assigneeName": "RAHUL_P",
+      "description": "CLOSED PENDING INDUCTION FOR WAITING VEH ASAP",
+      "priority": "HIGH",
+      "status": "NOT_STARTED"
+    },
+    {
+      "department": "Billing & MIS",
+      "assigneeName": "ANSHIKA",
+      "description": "Daily operations routine for Billing & MIS",
+      "priority": "MEDIUM",
+      "status": "NOT_STARTED"
+    },
+    {
+      "department": "Billing & MIS",
+      "assigneeName": "ANSHIKA",
+      "description": "Daily operations routine for Billing & MIS",
+      "priority": "MEDIUM",
+      "status": "NOT_STARTED"
+    },
+    {
+      "department": "Operations",
+      "assigneeName": "ATHARVA_W",
+      "description": "Daily operations routine for Operations",
+      "priority": "MEDIUM",
+      "status": "NOT_STARTED"
+    },
+    {
+      "department": "Billing & MIS",
+      "assigneeName": "RAJNI",
+      "description": "Daily operations routine for Billing & MIS",
+      "priority": "HIGH",
+      "status": "NOT_STARTED"
+    }
+  ],
+  "trips": [
+    {
+      "vehicleNumber": "0033 Sedan",
+      "clientName": "Tracelink",
+      "shift": "LOGIN",
+      "stops": [
+        "6:00 Ravet - Lotus Shoppe Ravet",
+        "8:00 Dehu Road - Highway Central Hotel",
+        "12:30 Hinjewadi - Blue Ridge Chowk",
+        "17:00 Punawale - Lotus Business School",
+        "17:30 Old Sanghvi - Dhore Nagar bus stop"
+      ]
+    },
+    {
+      "vehicleNumber": "9392 SUV",
+      "clientName": "Tracelink",
+      "shift": "LOGIN",
+      "stops": [
+        "7:00 Ambegoan Datta Nagar - Beldare Petrol Pump - Near Dmart",
+        "14:00 Sus Road - Abhinav Kala Vidyalaya Gate",
+        "17:30 B T Kawde - Near Citadal Society Gate"
+      ]
+    },
+    {
+      "vehicleNumber": "WR 8200 Sedan",
+      "clientName": "Tracelink",
+      "shift": "LOGIN",
+      "stops": [
+        "11:00 Chinchwad - Morya Hospital",
+        "14:00 Balewadi - Shree Savata Mali Temple",
+        "17:00 Mhalunge - Nande Road"
+      ]
+    },
+    {
+      "vehicleNumber": "5035 Sedan",
+      "clientName": "Tracelink",
+      "shift": "LOGIN",
+      "stops": [
+        "12:30 Amanora Park Town - Hadapsar",
+        "13:00 Baner - Hotel Mahabaleshwar",
+        "17:00 Lonikand"
+      ]
+    },
+    {
+      "vehicleNumber": "2511 Sedan",
+      "clientName": "Tracelink",
+      "shift": "LOGIN",
+      "stops": [
+        "13:00 Baner - Mahalunge",
+        "14:00 Wakad - Mont Vert Corner",
+        "17:00 Pradhikaran - Bhel Chowk",
+        "17:30 Sus Gaon - Windows Phase 4 Society",
+        "19:00 Gahunje"
+      ]
+    },
+    {
+      "vehicleNumber": "6996 KQ Sedan",
+      "clientName": "Tracelink",
+      "shift": "LOGIN",
+      "stops": [
+        "13:00 Aundh - Convergys",
+        "14:00 Ravet - Celestial City Corner",
+        "17:00 Pradhikaran - Bhel Chowk"
+      ]
+    },
+    {
+      "vehicleNumber": "3080 Sedan",
+      "clientName": "Tracelink",
+      "shift": "LOGIN",
+      "stops": [
+        "14:00 Marunji - Life Republic - Kolte Patil",
+        "17:00 Balewadi - Comfort ZONE Corner"
+      ]
+    },
+    {
+      "vehicleNumber": "3140 Sedan",
+      "clientName": "Tracelink",
+      "shift": "LOGIN",
+      "stops": [
+        "14:00 Hadapsar - Handewadi Rd - Satav Nagar"
+      ]
+    },
+    {
+      "vehicleNumber": "6996 KA Sedan",
+      "clientName": "Tracelink",
+      "shift": "LOGIN",
+      "stops": [
+        "14:00 Chinchwad - Empire Estate Ranka Jewellers",
+        "17:00 Old Sanghvi - Dhore Nagar bus stop"
+      ]
+    },
+    {
+      "vehicleNumber": "8329 SUV",
+      "clientName": "Tracelink",
+      "shift": "LOGIN",
+      "stops": [
+        "14:00 Kharabwadi",
+        "17:30 Koregaon Park - Koyla Rest Corner",
+        "19:00 Chinchwad - Keshav Nagar Municipal School"
+      ]
+    },
+    {
+      "vehicleNumber": "9828 Sedan",
+      "clientName": "Tracelink",
+      "shift": "LOGIN",
+      "stops": [
+        "14:30 Kothrud - Bandal Capital",
+        "17:00 Tingre Nagar - Aahar Biryanis",
+        "17:30 Kothrud - Bandal Capital"
+      ]
+    },
+    {
+      "vehicleNumber": "8380 Sedan",
+      "clientName": "Tracelink",
+      "shift": "LOGIN",
+      "stops": [
+        "17:00 Wagholi - Lifeline Hospital",
+        "17:30 Warje - Aaditya Garden City"
+      ]
+    },
+    {
+      "vehicleNumber": "9431 Ertiga",
+      "clientName": "Tracelink",
+      "shift": "LOGIN",
+      "stops": [
+        "17:30 Undri Marg - Nyati Evara"
+      ]
+    }
+  ],
+  "daily_vehicle_tracking": [
+    {
+      "registrationNumber": "MH-12-XM-9828",
+      "tripCount": 3,
+      "attendanceStatus": "PRESENT",
+      "cngToday": 700,
+      "cngMtd": 6200,
+      "cngRecovery": 310,
+      "totalRecoverable": 6510
+    },
+    {
+      "registrationNumber": "MH-12-VF-9431",
+      "tripCount": 1,
+      "attendanceStatus": "PRESENT",
+      "cngToday": 0,
+      "cngMtd": 1500,
+      "cngRecovery": 75,
+      "totalRecoverable": 1575
+    },
+    {
+      "registrationNumber": "MH-14-MH-1298",
+      "tripCount": 0,
+      "attendanceStatus": "ABSENT",
+      "cngToday": 0,
+      "cngMtd": 3900,
+      "cngRecovery": 195,
+      "totalRecoverable": 4095
+    },
+    {
+      "registrationNumber": "MH-12-YB-8380",
+      "tripCount": 2,
+      "attendanceStatus": "PRESENT",
+      "cngToday": 0,
+      "cngMtd": 0,
+      "cngRecovery": 0,
+      "totalRecoverable": 0
+    },
+    {
+      "registrationNumber": "MH-14-MT-9392",
+      "tripCount": 3,
+      "attendanceStatus": "PRESENT",
+      "cngToday": 0,
+      "cngMtd": 0,
+      "cngRecovery": 0,
+      "totalRecoverable": 0
+    },
+    {
+      "registrationNumber": "MH-12-ZE-0894",
+      "tripCount": 0,
+      "attendanceStatus": "ABSENT",
+      "cngToday": 0,
+      "cngMtd": 2800,
+      "cngRecovery": 140,
+      "totalRecoverable": 2940
+    },
+    {
+      "registrationNumber": "MH-14-MT-8329",
+      "tripCount": 3,
+      "attendanceStatus": "PRESENT",
+      "cngToday": 700,
+      "cngMtd": 3300,
+      "cngRecovery": 165,
+      "totalRecoverable": 3465
+    },
+    {
+      "registrationNumber": "MH-12-WJ-3360",
+      "tripCount": 2,
+      "attendanceStatus": "PRESENT",
+      "cngToday": 0,
+      "cngMtd": 7842,
+      "cngRecovery": 392.1,
+      "totalRecoverable": 8234.1
+    },
+    {
+      "registrationNumber": "MH-18-BZ-4032",
+      "tripCount": 0,
+      "attendanceStatus": "ABSENT",
+      "cngToday": 0,
+      "cngMtd": 0,
+      "cngRecovery": 0,
+      "totalRecoverable": 0
+    },
+    {
+      "registrationNumber": "MH-14-KQ-6996",
+      "tripCount": 3,
+      "attendanceStatus": "PRESENT",
+      "cngToday": 0,
+      "cngMtd": 0,
+      "cngRecovery": 0,
+      "totalRecoverable": 0
+    },
+    {
+      "registrationNumber": "MH-14-KU-6996",
+      "tripCount": 0,
+      "attendanceStatus": "ABSENT",
+      "cngToday": 0,
+      "cngMtd": 0,
+      "cngRecovery": 0,
+      "totalRecoverable": 0
+    },
+    {
+      "registrationNumber": "MH-12-XM-2511",
+      "tripCount": 5,
+      "attendanceStatus": "PRESENT",
+      "cngToday": 0,
+      "cngMtd": 0,
+      "cngRecovery": 0,
+      "totalRecoverable": 0
+    },
+    {
+      "registrationNumber": "MH-26-CH-3140",
+      "tripCount": 1,
+      "attendanceStatus": "PRESENT",
+      "cngToday": 0,
+      "cngMtd": 0,
+      "cngRecovery": 0,
+      "totalRecoverable": 0
+    },
+    {
+      "registrationNumber": "MH-12-YB-7602",
+      "tripCount": 0,
+      "attendanceStatus": "ABSENT",
+      "cngToday": 0,
+      "cngMtd": 0,
+      "cngRecovery": 0,
+      "totalRecoverable": 0
+    },
+    {
+      "registrationNumber": "MH-14-LB-6007",
+      "tripCount": 0,
+      "attendanceStatus": "ABSENT",
+      "cngToday": 0,
+      "cngMtd": 0,
+      "cngRecovery": 0,
+      "totalRecoverable": 0
+    },
+    {
+      "registrationNumber": "MH-14-LB-5196",
+      "tripCount": 1,
+      "attendanceStatus": "PRESENT",
+      "cngToday": 560,
+      "cngMtd": 5487,
+      "cngRecovery": 274.35,
+      "totalRecoverable": 5761.35
+    },
+    {
+      "registrationNumber": "MH-14-MT-4642",
+      "tripCount": 0,
+      "attendanceStatus": "ABSENT",
+      "cngToday": 0,
+      "cngMtd": 0,
+      "cngRecovery": 0,
+      "totalRecoverable": 0
+    },
+    {
+      "registrationNumber": "MH-14-KA-6378",
+      "tripCount": 0,
+      "attendanceStatus": "ABSENT",
+      "cngToday": 0,
+      "cngMtd": 700,
+      "cngRecovery": 35,
+      "totalRecoverable": 735
+    },
+    {
+      "registrationNumber": "MH-12-YQ-9693",
+      "tripCount": 0,
+      "attendanceStatus": "ABSENT",
+      "cngToday": 0,
+      "cngMtd": 0,
+      "cngRecovery": 0,
+      "totalRecoverable": 0
+    },
+    {
+      "registrationNumber": "MH-14-KA-6996",
+      "tripCount": 2,
+      "attendanceStatus": "PRESENT",
+      "cngToday": 0,
+      "cngMtd": 0,
+      "cngRecovery": 0,
+      "totalRecoverable": 0
+    },
+    {
+      "registrationNumber": "MH-12-VT-0033",
+      "tripCount": 5,
+      "attendanceStatus": "PRESENT",
+      "cngToday": 0,
+      "cngMtd": 7842,
+      "cngRecovery": 392.1,
+      "totalRecoverable": 8234.1
+    },
+    {
+      "registrationNumber": "MH-12-UM-8200",
+      "tripCount": 3,
+      "attendanceStatus": "PRESENT",
+      "cngToday": 0,
+      "cngMtd": 0,
+      "cngRecovery": 0,
+      "totalRecoverable": 0
+    },
+    {
+      "registrationNumber": "MH-14-MT-4985",
+      "tripCount": 0,
+      "attendanceStatus": "ABSENT",
+      "cngToday": 0,
+      "cngMtd": 0,
+      "cngRecovery": 0,
+      "totalRecoverable": 0
+    },
+    {
+      "registrationNumber": "MH-24-BW-1615",
+      "tripCount": 0,
+      "attendanceStatus": "ABSENT",
+      "cngToday": 0,
+      "cngMtd": 0,
+      "cngRecovery": 0,
+      "totalRecoverable": 0
+    },
+    {
+      "registrationNumber": "MH-12-XM-0306",
+      "tripCount": 0,
+      "attendanceStatus": "ABSENT",
+      "cngToday": 0,
+      "cngMtd": 0,
+      "cngRecovery": 0,
+      "totalRecoverable": 0
+    },
+    {
+      "registrationNumber": "MH-14-NP-3080",
+      "tripCount": 2,
+      "attendanceStatus": "PRESENT",
+      "cngToday": 0,
+      "cngMtd": 0,
+      "cngRecovery": 0,
+      "totalRecoverable": 0
+    },
+    {
+      "registrationNumber": "MH-12-UM-5035",
+      "tripCount": 3,
+      "attendanceStatus": "PRESENT",
+      "cngToday": 700,
+      "cngMtd": 4900,
+      "cngRecovery": 245,
+      "totalRecoverable": 5145
+    },
+    {
+      "registrationNumber": "MH-50-N-9051",
+      "tripCount": 0,
+      "attendanceStatus": "ABSENT",
+      "cngToday": 587,
+      "cngMtd": 3123,
+      "cngRecovery": 156.15,
+      "totalRecoverable": 3279.15
+    }
+  ]
+}

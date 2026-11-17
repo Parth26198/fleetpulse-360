@@ -18,6 +18,8 @@ services:
         generateValue: true
       - key: JWT_EXPIRES_IN
         value: 7d
+      - key: FRONTEND_URL
+        sync: false # Set to your deployed frontend domain (e.g. https://fleetpulse-360.vercel.app)
 
   # FLEETPULSE 360 Frontend Static Site (Render Free Tier)
   - type: web

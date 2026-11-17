@@ -125,19 +125,33 @@ async function main() {
     userMap.set(u.email, user.id);
   }
 
-  // 4. Load JSON seed data extracted from Excel workbook
-  let seedPath = path.join(__dirname, 'seedData.json');
-  if (!fs.existsSync(seedPath)) {
-    seedPath = path.join(process.cwd(), 'prisma', 'seedData.json');
+  // 4. Load JSON seed data (Prioritizes demoSeedData.json to protect real confidential client data)
+  const candidateFiles = process.env.USE_REAL_DATA === 'true'
+    ? ['seedData.json', 'demoSeedData.json']
+    : ['demoSeedData.json', 'seedData.json'];
+
+  let resolvedPath = '';
+  for (const fileName of candidateFiles) {
+    const candidates = [
+      path.join(__dirname, fileName),
+      path.join(process.cwd(), 'prisma', fileName),
+      path.join(process.cwd(), 'backend', 'prisma', fileName),
+    ];
+    for (const p of candidates) {
+      if (fs.existsSync(p)) {
+        resolvedPath = p;
+        break;
+      }
+    }
+    if (resolvedPath) break;
   }
-  if (!fs.existsSync(seedPath)) {
-    seedPath = path.join(process.cwd(), 'backend', 'prisma', 'seedData.json');
-  }
-  if (!fs.existsSync(seedPath)) {
-    console.error(`seedData.json not found in ${seedPath} or alternative paths!`);
+
+  if (!resolvedPath) {
+    console.error('No seed JSON dataset found in prisma directory!');
     return;
   }
-  const rawData = fs.readFileSync(seedPath, 'utf-8');
+  console.log(`📦 Loading seed dataset from: ${path.basename(resolvedPath)}`);
+  const rawData = fs.readFileSync(resolvedPath, 'utf-8');
   const seedData = JSON.parse(rawData);
 
   // Clean up operational data for Shreej company to ensure clean, idempotent seed
