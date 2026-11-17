@@ -1,0 +1,63 @@
+# ==============================================================================
+# FLEETPULSE 360 — ROOT .GITIGNORE
+# ==============================================================================
+
+# Node dependencies
+node_modules/
+*/node_modules/
+package-lock.json.bak
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Production Build Artifacts
+dist/
+*/dist/
+build/
+*/build/
+out/
+.next/
+*.tsbuildinfo
+
+# Environment & Secret Configuration Files
+.env
+.env.*
+!.env.example
+!.env.production.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Databases, SQLite storage & local backup dumps
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.sql
+dev.db
+backend/dev.db
+backend/prisma/dev.db
+
+# Confidential Client Excel Workbooks & Raw Datasets
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+SHREEJ_DAILY REPORT.xlsx
+
+# Scratch directory & temporary automated test artifacts
+scratch/
+scratch_*
+*.log
+
+# Editor & OS metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo

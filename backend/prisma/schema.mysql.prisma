@@ -1,0 +1,510 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Company {
+  id               String   @id @default(uuid()) @db.VarChar(36)
+  name             String   @db.VarChar(255)
+  slug             String   @unique @db.VarChar(100)
+  code             String   @unique @db.VarChar(50)
+  address          String?  @db.Text
+  phone            String?  @db.VarChar(50)
+  email            String?  @db.VarChar(255)
+  gstNumber        String?  @db.VarChar(50)
+  panNumber        String?  @db.VarChar(50)
+  subscriptionPlan String   @default("ENTERPRISE") @db.VarChar(50)
+  maxVehicles      Int      @default(100)
+  status           String   @default("ACTIVE") @db.VarChar(20)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  users                 User[]
+  employees             Employee[]
+  drivers               Driver[]
+  vehicles              Vehicle[]
+  vehicleDocuments      VehicleDocument[]
+  trips                 Trip[]
+  dailyVehicleTrackings DailyVehicleTracking[]
+  attendances           Attendance[]
+  payrolls              Payroll[]
+  expenses              Expense[]
+  clients               Client[]
+  clientRateCards       ClientRateCard[]
+  invoices              Invoice[]
+  tasks                 Task[]
+  auditLogs             AuditLog[]
+  importJobs            ImportJob[]
+
+  @@map("companies")
+}
+
+model User {
+  id           String   @id @default(uuid()) @db.VarChar(36)
+  companyId    String   @db.VarChar(36)
+  name         String   @db.VarChar(255)
+  email        String   @unique @db.VarChar(255)
+  passwordHash String   @db.VarChar(255)
+  roleId       String   @db.VarChar(36)
+  phone        String?  @db.VarChar(50)
+  status       String   @default("ACTIVE") @db.VarChar(20)
+  avatarUrl    String?  @db.VarChar(500)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  company   Company    @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  role      Role       @relation(fields: [roleId], references: [id])
+  tasks     Task[]     @relation("AssigneeTasks")
+  auditLogs AuditLog[]
+
+  @@map("users")
+}
+
+model Role {
+  id          String   @id @default(uuid()) @db.VarChar(36)
+  name        String   @unique @db.VarChar(50)
+  description String?  @db.VarChar(255)
+  isSystem    Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  users           User[]
+  rolePermissions RolePermission[]
+
+  @@map("roles")
+}
+
+model Permission {
+  id          String  @id @default(uuid()) @db.VarChar(36)
+  module      String  @db.VarChar(50)
+  action      String  @db.VarChar(50)
+  description String? @db.VarChar(255)
+
+  rolePermissions RolePermission[]
+
+  @@unique([module, action])
+  @@map("permissions")
+}
+
+model RolePermission {
+  id           String @id @default(uuid()) @db.VarChar(36)
+  roleId       String @db.VarChar(36)
+  permissionId String @db.VarChar(36)
+
+  role       Role       @relation(fields: [roleId], references: [id], onDelete: Cascade)
+  permission Permission @relation(fields: [permissionId], references: [id], onDelete: Cascade)
+
+  @@unique([roleId, permissionId])
+  @@map("role_permissions")
+}
+
+model Employee {
+  id               String    @id @default(uuid()) @db.VarChar(36)
+  companyId        String    @db.VarChar(36)
+  employeeCode     String    @db.VarChar(50)
+  name             String    @db.VarChar(255)
+  department       String    @db.VarChar(100)
+  roleTitle        String    @db.VarChar(100)
+  shiftTiming      String?   @db.VarChar(100)
+  emergencyContact String?   @db.VarChar(100)
+  location         String    @default("OFFICE") @db.VarChar(100)
+  joiningDate      DateTime?
+  baseSalary       Float     @default(0)
+  status           String    @default("ACTIVE") @db.VarChar(20)
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
+
+  company     Company      @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  attendances Attendance[]
+  payrolls    Payroll[]
+  driver      Driver?
+
+  @@unique([companyId, employeeCode])
+  @@map("employees")
+}
+
+model Driver {
+  id               String    @id @default(uuid()) @db.VarChar(36)
+  companyId        String    @db.VarChar(36)
+  employeeId       String?   @unique @db.VarChar(36)
+  name             String    @db.VarChar(255)
+  phone            String?   @db.VarChar(50)
+  emergencyPhone   String?   @db.VarChar(50)
+  tempAddress      String?   @db.Text
+  permanentAddress String?   @db.Text
+  licenseNumber    String?   @db.VarChar(50)
+  licenseDate      DateTime?
+  licenseExpiry    DateTime?
+  pccDate          DateTime?
+  pccReceipt       String?   @db.VarChar(50)
+  medicalDate      DateTime?
+  schoolDone       String?   @db.VarChar(50)
+  aadharNumber     String?   @db.VarChar(50)
+  ownerName        String?   @db.VarChar(255)
+  ownerPhone       String?   @db.VarChar(50)
+  status           String    @default("ACTIVE") @db.VarChar(20)
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
+
+  company   Company                @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  employee  Employee?              @relation(fields: [employeeId], references: [id])
+  vehicles  Vehicle[]
+  trips     Trip[]
+  expenses  Expense[]
+  trackings DailyVehicleTracking[]
+
+  @@map("drivers")
+}
+
+model Vehicle {
+  id                 String    @id @default(uuid()) @db.VarChar(36)
+  companyId          String    @db.VarChar(36)
+  registrationNumber String    @db.VarChar(50)
+  vehicleType        String    @db.VarChar(50)
+  make               String    @db.VarChar(100)
+  model              String    @db.VarChar(100)
+  capacity           String    @default("4+1") @db.VarChar(20)
+  fuelType           String    @default("CNG") @db.VarChar(20)
+  gpsInstalled       Boolean   @default(false)
+  gpsImei            String?   @db.VarChar(100)
+  startDate          DateTime?
+  status             String    @default("ACTIVE") @db.VarChar(20)
+  stopReason         String?   @db.VarChar(255)
+  assignedDriverId   String?   @db.VarChar(36)
+  ownerName          String?   @db.VarChar(255)
+  ownerPhone         String?   @db.VarChar(50)
+  remark             String?   @db.Text
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+
+  company          Company                @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  assignedDriver   Driver?                @relation(fields: [assignedDriverId], references: [id])
+  vehicleDocuments VehicleDocument[]
+  trips            Trip[]
+  dailyTrackings   DailyVehicleTracking[]
+  expenses         Expense[]
+
+  @@unique([companyId, registrationNumber])
+  @@map("vehicles")
+}
+
+model VehicleDocument {
+  id             String    @id @default(uuid()) @db.VarChar(36)
+  companyId      String    @db.VarChar(36)
+  vehicleId      String    @db.VarChar(36)
+  documentType   String    @db.VarChar(50)
+  documentNumber String?   @db.VarChar(100)
+  issueDate      DateTime?
+  expiryDate     DateTime?
+  fileUrl        String?   @db.VarChar(500)
+  status         String    @default("VALID") @db.VarChar(20)
+  alertDays      Int       @default(30)
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  company Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  vehicle Vehicle @relation(fields: [vehicleId], references: [id], onDelete: Cascade)
+
+  @@unique([vehicleId, documentType])
+  @@map("vehicle_documents")
+}
+
+model Trip {
+  id            String   @id @default(uuid()) @db.VarChar(36)
+  companyId     String   @db.VarChar(36)
+  tripDate      DateTime
+  clientId      String?  @db.VarChar(36)
+  vehicleId     String   @db.VarChar(36)
+  driverId      String?  @db.VarChar(36)
+  shift         String   @default("DAY") @db.VarChar(20)
+  routeName     String?  @db.VarChar(255)
+  tripDirection String   @default("BOTH") @db.VarChar(20)
+  status        String   @default("COMPLETED") @db.VarChar(20)
+  remarks       String?  @db.Text
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  company Company    @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  client  Client?    @relation(fields: [clientId], references: [id])
+  vehicle Vehicle    @relation(fields: [vehicleId], references: [id])
+  driver  Driver?    @relation(fields: [driverId], references: [id])
+  stops   TripStop[]
+
+  @@map("trips")
+}
+
+model TripStop {
+  id            String  @id @default(uuid()) @db.VarChar(36)
+  tripId        String  @db.VarChar(36)
+  stopOrder     Int
+  stopName      String  @db.VarChar(255)
+  landmark      String? @db.VarChar(255)
+  scheduledTime String? @db.VarChar(20)
+  actualTime    String? @db.VarChar(20)
+  stopType      String  @default("PICKUP") @db.VarChar(20)
+
+  trip Trip @relation(fields: [tripId], references: [id], onDelete: Cascade)
+
+  @@map("trip_stops")
+}
+
+model DailyVehicleTracking {
+  id                  String   @id @default(uuid()) @db.VarChar(36)
+  companyId           String   @db.VarChar(36)
+  trackingDate        DateTime
+  vehicleId           String   @db.VarChar(36)
+  driverId            String?  @db.VarChar(36)
+  tripCount           Int      @default(0)
+  attendanceStatus    String   @default("ABSENT") @db.VarChar(20)
+  cngExpenseToday     Float    @default(0)
+  cngExpenseMtd       Float    @default(0)
+  cngRecoveryRate     Float    @default(5.0)
+  cngRecoveryAmount   Float    @default(0)
+  totalRecoverableCng Float    @default(0)
+  remarks             String?  @db.Text
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  company Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  vehicle Vehicle @relation(fields: [vehicleId], references: [id])
+  driver  Driver? @relation(fields: [driverId], references: [id])
+
+  @@unique([companyId, trackingDate, vehicleId])
+  @@map("daily_vehicle_tracking")
+}
+
+model Attendance {
+  id             String   @id @default(uuid()) @db.VarChar(36)
+  companyId      String   @db.VarChar(36)
+  employeeId     String   @db.VarChar(36)
+  attendanceDate DateTime
+  status         String   @default("PRESENT") @db.VarChar(20)
+  checkInTime    String?  @db.VarChar(20)
+  checkOutTime   String?  @db.VarChar(20)
+  lateMinutes    Int      @default(0)
+  isLateMark     Boolean  @default(false)
+  remarks        String?  @db.Text
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  company  Company  @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  employee Employee @relation(fields: [employeeId], references: [id], onDelete: Cascade)
+
+  @@unique([companyId, employeeId, attendanceDate])
+  @@map("attendance")
+}
+
+model Payroll {
+  id                   String    @id @default(uuid()) @db.VarChar(36)
+  companyId            String    @db.VarChar(36)
+  month                Int
+  year                 Int
+  employeeId           String    @db.VarChar(36)
+  presentDays          Float     @default(0)
+  absentDays           Float     @default(0)
+  weekOffDays          Float     @default(0)
+  lateMarks            Int       @default(0)
+  lateDeductionDays    Float     @default(0)
+  payableDays          Float     @default(0)
+  attendancePercentage Float     @default(0)
+  baseSalary           Float     @default(0)
+  absentDeduction      Float     @default(0)
+  lateDeduction        Float     @default(0)
+  otherDeductions      Float     @default(0)
+  bonus                Float     @default(0)
+  netSalary            Float     @default(0)
+  status               String    @default("DRAFT") @db.VarChar(20)
+  approvedBy           String?   @db.VarChar(100)
+  approvedAt           DateTime?
+  remarks              String?   @db.Text
+  createdAt            DateTime  @default(now())
+  updatedAt            DateTime  @updatedAt
+
+  company  Company  @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  employee Employee @relation(fields: [employeeId], references: [id], onDelete: Cascade)
+
+  @@unique([companyId, employeeId, month, year])
+  @@map("payroll")
+}
+
+model Expense {
+  id             String    @id @default(uuid()) @db.VarChar(36)
+  companyId      String    @db.VarChar(36)
+  expenseDate    DateTime
+  category       String    @db.VarChar(50)
+  amount         Float
+  paymentMode    String    @default("ONLINE") @db.VarChar(50)
+  paidBy         String?   @db.VarChar(100)
+  beneficiary    String?   @db.VarChar(255)
+  description    String?   @db.Text
+  vehicleId      String?   @db.VarChar(36)
+  driverId       String?   @db.VarChar(36)
+  billNumber     String?   @db.VarChar(100)
+  receiptUrl     String?   @db.VarChar(500)
+  approvalStatus String    @default("DONE") @db.VarChar(20)
+  recoveryStatus String    @default("UNRECOVER") @db.VarChar(20)
+  approvedBy     String?   @db.VarChar(100)
+  approvedAt     DateTime?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  company Company  @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  vehicle Vehicle? @relation(fields: [vehicleId], references: [id])
+  driver  Driver?  @relation(fields: [driverId], references: [id])
+
+  @@map("expenses")
+}
+
+model Client {
+  id               String   @id @default(uuid()) @db.VarChar(36)
+  companyId        String   @db.VarChar(36)
+  name             String   @db.VarChar(255)
+  code             String   @db.VarChar(50)
+  contactPerson    String?  @db.VarChar(255)
+  email            String?  @db.VarChar(255)
+  phone            String?  @db.VarChar(50)
+  officeContact    String?  @db.VarChar(255)
+  misContact       String?  @db.VarChar(255)
+  inductionContact String?  @db.VarChar(255)
+  billingContact   String?  @db.VarChar(255)
+  address          String?  @db.Text
+  gstNumber        String?  @db.VarChar(50)
+  status           String   @default("ACTIVE") @db.VarChar(20)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  company   Company          @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  rateCards ClientRateCard[]
+  trips     Trip[]
+  invoices  Invoice[]
+
+  @@unique([companyId, code])
+  @@map("clients")
+}
+
+model ClientRateCard {
+  id            String   @id @default(uuid()) @db.VarChar(36)
+  companyId     String   @db.VarChar(36)
+  clientId      String   @db.VarChar(36)
+  vehicleType   String   @db.VarChar(50)
+  isAc          Boolean  @default(true)
+  minDistanceKm Float    @default(0)
+  maxDistanceKm Float    @default(10)
+  rateType      String   @default("SLAB") @db.VarChar(20)
+  baseRate      Float
+  extraKmRate   Float?
+  shiftTiming   String?  @db.VarChar(100)
+  effectiveDate DateTime @default(now())
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  company Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  client  Client  @relation(fields: [clientId], references: [id], onDelete: Cascade)
+
+  @@map("client_rate_cards")
+}
+
+model Invoice {
+  id                 String        @id @default(uuid()) @db.VarChar(36)
+  companyId          String        @db.VarChar(36)
+  clientId           String        @db.VarChar(36)
+  invoiceNumber      String        @db.VarChar(100)
+  invoiceDate        DateTime
+  dueDate            DateTime?
+  billingPeriodStart DateTime?
+  billingPeriodEnd   DateTime?
+  subtotal           Float         @default(0)
+  taxAmount          Float         @default(0)
+  totalAmount        Float         @default(0)
+  paidAmount         Float         @default(0)
+  balanceAmount      Float         @default(0)
+  status             String        @default("SENT") @db.VarChar(20)
+  notes              String?       @db.Text
+  pdfUrl             String?       @db.VarChar(500)
+  createdAt          DateTime      @default(now())
+  updatedAt          DateTime      @updatedAt
+
+  company Company       @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  client  Client        @relation(fields: [clientId], references: [id])
+  items   InvoiceItem[]
+
+  @@unique([companyId, invoiceNumber])
+  @@map("invoices")
+}
+
+model InvoiceItem {
+  id          String  @id @default(uuid()) @db.VarChar(36)
+  invoiceId   String  @db.VarChar(36)
+  description String  @db.VarChar(255)
+  vehicleType String? @db.VarChar(50)
+  tripCount   Int     @default(1)
+  rate        Float
+  amount      Float
+
+  invoice Invoice @relation(fields: [invoiceId], references: [id], onDelete: Cascade)
+
+  @@map("invoice_items")
+}
+
+model Task {
+  id            String    @id @default(uuid()) @db.VarChar(36)
+  companyId     String    @db.VarChar(36)
+  taskDate      DateTime  @default(now())
+  department    String    @db.VarChar(100)
+  assigneeId    String?   @db.VarChar(36)
+  assigneeName  String?   @db.VarChar(255)
+  description   String    @db.Text
+  priority      String    @default("MEDIUM") @db.VarChar(20)
+  status        String    @default("NOT_STARTED") @db.VarChar(20)
+  bossRemarks   String?   @db.Text
+  dueDate       DateTime?
+  completedDate DateTime?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  company  Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  assignee User?   @relation("AssigneeTasks", fields: [assigneeId], references: [id])
+
+  @@map("tasks")
+}
+
+model AuditLog {
+  id        String   @id @default(uuid()) @db.VarChar(36)
+  companyId String   @db.VarChar(36)
+  userId    String?  @db.VarChar(36)
+  action    String   @db.VarChar(100)
+  entity    String   @db.VarChar(100)
+  entityId  String?  @db.VarChar(100)
+  details   String?  @db.Text
+  ipAddress String?  @db.VarChar(50)
+  userAgent String?  @db.VarChar(255)
+  createdAt DateTime @default(now())
+
+  company Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  user    User?   @relation(fields: [userId], references: [id])
+
+  @@map("audit_logs")
+}
+
+model ImportJob {
+  id           String   @id @default(uuid()) @db.VarChar(36)
+  companyId    String   @db.VarChar(36)
+  fileName     String   @db.VarChar(255)
+  sheetName    String   @db.VarChar(100)
+  totalRows    Int      @default(0)
+  importedRows Int      @default(0)
+  failedRows   Int      @default(0)
+  status       String   @default("PENDING") @db.VarChar(20)
+  errorLog     String?  @db.Text
+  createdBy    String?  @db.VarChar(255)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  company Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  @@map("import_jobs")
+}
